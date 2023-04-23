@@ -42,6 +42,9 @@ app.component('testTEI',{
                 <div class="testTitle">Begin Teamwork Type Test</div>
                 <button @click = "nextQ" class = "basicButton">Begin Now</button>
             </div>
+
+        </div>
+    </div>
     `,
     data(){
         return{

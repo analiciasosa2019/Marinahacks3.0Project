@@ -8,9 +8,10 @@ app.component('root',{
       <button class = "navButton" @click = "navclick('instructorevauation')">Evaluation</button>
       <button class = "navButton" @click = "navclick('testTEI')">Intelligence Tests</button>
       <button class = "navButton" @click = "navclick('lessonchat')">Lesson Chat</button>
+      <button class = "navButton" @click = "navclick('testMI')">test MI</button>
      </nav>
 
-     <button class="navButton" @click = 'test'>click</button>
+   
 
     <div v-show = "page == 'summary'"><summaryPage></summaryPage></div>
     <div v-show = "page == 'instructorevauation'"><instructorevaluation></instructorevaluation></div> 
@@ -21,8 +22,10 @@ app.component('root',{
 
     <!--
     <li v-for="(value, key) in studentList" :key="key">
-    {{ studentAverages(key) }}-->
-    </li>
+    {{ studentAverages(key) }}
+    
+      <button class="navButton" @click = 'test'>click</button>
+    </li>-->
 
 
     `,

@@ -6,9 +6,10 @@ app.component('summaryPage',{
     <div class = "summaryOuterBox">
         <div class = "graphArea">
             <div class = "spiderChartArea">
+                <spider-chart></spider-chart>
             </div>
             <div class = "lineGraphArea">
-
+                <barChart></barChart>
             </div>
         </div>
         <div class = "studentListArea">
