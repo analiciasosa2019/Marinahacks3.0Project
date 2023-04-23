@@ -6,11 +6,11 @@ app.component('root',{
     <nav>
       <button class = "navButton" @click = "navclick('summaryPage')">Summary</button> 
       <button class = "navButton" @click = "navclick('instructorevauation')">Evaluation</button>
-      <button class = "navButton" @click = "navclick('testTeam')">Team Test</button>
-      <button class = "navButton" @click = "navclick('testMI')">Learning Type Test</button>
-      <button class = "navButton" @click = "navclick('testTEI')">Intelligence Type Test</button>
+      <button class = "navButton" @click = "navclick('testTEI')">Intelligence Tests</button>
       <button class = "navButton" @click = "navclick('lessonchat')">Lesson Chat</button>
      </nav>
+
+     <button class="navButton" @click = 'test'>click</button>
 
     <div v-show = "page == 'summary'"><summaryPage></summaryPage></div>
     <div v-show = "page == 'instructorevauation'"><instructorevaluation></instructorevaluation></div> 
@@ -18,7 +18,9 @@ app.component('root',{
     <div v-show = "page == 'testMI'"><testMI></testMI></div> 
     <div v-show = "page == 'testTeam'"><testTeam></testTeam></div> 
     <div v-show = "page == 'testTEI'" > <testTEI></testTEI> </div> 
-    
+    <li v-for="(value, key) in studentList" :key="key">
+    {{ studentAverages(key) }}
+    </li>
     `,
     data(){
         return{
@@ -35,29 +37,29 @@ app.component('root',{
                         history: {2022: 90, 2021: 87, 2020: 74} 
                     },
                     learningTypes: {
-                        visual: 44,
-                        kinaesthetic: 68,
-                        aural: 54,
-                        social: 82,
-                        solitary: 57,
-                        verbal: 34,
-                        logical: 59
+                        visual: 4,
+                        kinaesthetic: 8,
+                        aural: 5,
+                        social: 8,
+                        solitary: 7,
+                        verbal: 4,
+                        logical: 5
                     },
                     typesOfIntelligence: {
-                        naturalist: 46,
-                        musical: 69,
-                        logical_mathematical: 37,
-                        existential: 96,
-                        interpersonal: 47,
-                        bodily_kinesthetic: 87,
-                        linguistic: 79,
-                        intrapersonal: 43
+                        naturalist: 4,
+                        musical: 6,
+                        logical_mathematical: 7,
+                        existential: 9,
+                        interpersonal: 4,
+                        bodily_kinesthetic: 7,
+                        linguistic: 7,
+                        intrapersonal: 4
                     },
                     teamPersonality: {
-                        pioneer: 35, 
-                        guardian: 84, 
-                        driver: 93,
-                        integrator: 58
+                        pioneer: 5, 
+                        guardian: 4, 
+                        driver: 9,
+                        integrator: 5
                     },
                     learningTypesStudent: {
                         visual: 6,
@@ -122,29 +124,29 @@ app.component('root',{
                         history: {2022: 85, 2021: 89, 2020: 77}
                     },
                     learningTypes: {
-                        visual: 52,
-                        kinaesthetic: 71,
-                        aural: 48,
-                        social: 88,
-                        solitary: 61,
-                        verbal: 39,
-                        logical: 67
+                        visual: 5,
+                        kinaesthetic: 7,
+                        aural: 4,
+                        social: 8,
+                        solitary: 1,
+                        verbal: 3,
+                        logical: 7
                     },
                     typesOfIntelligence: {
-                        naturalist: 43,
-                        musical: 62,
-                        logical_mathematical: 49,
-                        existential: 91,
-                        interpersonal: 53,
-                        bodily_kinesthetic: 77,
-                        linguistic: 81,
-                        intrapersonal: 92
+                        naturalist: 3,
+                        musical: 6,
+                        logical_mathematical: 9,
+                        existential: 1,
+                        interpersonal: 5,
+                        bodily_kinesthetic: 7,
+                        linguistic: 8,
+                        intrapersonal: 2
                     },
                     teamPersonality: {
-                        pioneer: 62,
-                        guardian: 77,
-                        driver: 88,
-                        integrator: 51
+                        pioneer: 2,
+                        guardian: 7,
+                        driver: 8,
+                        integrator: 1
                     }, 
                     learningTypesStudent: {
                         visual: 5,
@@ -227,10 +229,10 @@ app.component('root',{
                         intrapersonal: 9
                     },
                     teamPersonality: {
-                        pioneer: 60,
-                        guardian: 80,
-                        driver: 87,
-                        integrator: 53
+                        pioneer: 6,
+                        guardian: 5,
+                        driver: 8,
+                        integrator: 5
                     },
                     learningTypesStudent: {
                         visual: 7,
@@ -317,10 +319,10 @@ app.component('root',{
                         intrapersonal: 9
                     },
                     teamPersonality: {
-                        pioneer: 45, 
-                        guardian: 72, 
-                        driver: 84,
-                        integrator: 63
+                        pioneer: 5, 
+                        guardian: 7, 
+                        driver: 8,
+                        integrator: 3
                     },
                     learningTypesStudent: {
                         visual: 8,
@@ -407,10 +409,10 @@ app.component('root',{
                         intrapersonal: 8
                     },
                     teamPersonality: {
-                        pioneer: 72, 
-                        guardian: 62, 
-                        driver: 79,
-                        integrator: 55
+                        pioneer: 7, 
+                        guardian: 2, 
+                        driver: 7,
+                        integrator: 5
                     },
                     learningTypesStudent: {
                         visual: 6,
@@ -497,10 +499,10 @@ app.component('root',{
                         intrapersonal: 9
                     },
                     teamPersonality: {
-                        pioneer: 68, 
-                        guardian: 58, 
-                        driver: 80,
-                        integrator: 72
+                        pioneer: 6, 
+                        guardian: 5, 
+                        driver: 8,
+                        integrator: 2
                     },
                     learningTypesStudent: {
                         visual: 4,
@@ -587,10 +589,10 @@ app.component('root',{
                         intrapersonal: 3
                     },
                     teamPersonality: {
-                        pioneer: 75, 
-                        guardian: 72, 
-                        driver: 69,
-                        integrator: 80
+                        pioneer: 5, 
+                        guardian: 2, 
+                        driver: 6,
+                        integrator: 8
                     },
                     learningTypesStudent: {
                         visual: 7,
@@ -677,10 +679,10 @@ app.component('root',{
                         intrapersonal: 9
                     },
                     teamPersonality: {
-                        pioneer: 72, 
-                        guardian: 59, 
-                        driver: 83,
-                        integrator: 37
+                        pioneer: 2, 
+                        guardian: 9, 
+                        driver: 8,
+                        integrator: 3
                     }, 
                     learningTypesStudent: {
                         visual: 9,
@@ -1197,10 +1199,10 @@ app.component('root',{
                         intrapersonal: 4
                     },
                     teamPersonality: {
-                        pioneer: 67, 
-                        guardian: 72, 
-                        driver: 77,
-                        integrator: 69
+                        pioneer: 6, 
+                        guardian: 2, 
+                        driver: 7,
+                        integrator: 6
                     }, 
                     learningTypesStudent: {
                         visual: 8,
@@ -1369,10 +1371,10 @@ app.component('root',{
                         intrapersonal: 2
                     },
                     teamPersonality: {
-                        pioneer: 71, 
-                        guardian: 41, 
-                        driver: 25,
-                        integrator: 69
+                        pioneer: 7, 
+                        guardian: 1, 
+                        driver: 5,
+                        integrator: 9
                     }, 
                     learningTypesStudent: {
                         visual: 6,
@@ -1455,10 +1457,10 @@ app.component('root',{
                         intrapersonal: 5
                     },
                     teamPersonality: {
-                        pioneer: 79, 
-                        guardian: 90, 
-                        driver: 92,
-                        integrator: 85
+                        pioneer: 7, 
+                        guardian: 9, 
+                        driver: 9,
+                        integrator: 5
                     }, 
                     learningTypesStudent: {
                         visual: 8,
@@ -1541,12 +1543,11 @@ app.component('root',{
                         intrapersonal: 4
                     },
                     teamPersonality: {
-                        pioneer: 82, 
-                        guardian: 80, 
-                        driver: 75,
-                        integrator: 81
-                    }, 
-                    learningTypesStudent: {
+                        pioneer: 2, 
+                        guardian: 8, 
+                        driver: 7,
+                        integrator: 1
+                    }, learningTypesStudent: {
                         visual: 4,
                         kinaesthetic: 6,
                         aural: 8,
@@ -1627,10 +1628,10 @@ app.component('root',{
                         intrapersonal: 2
                     },
                     teamPersonality: {
-                        pioneer: 28, 
-                        guardian: 45, 
-                        driver: 72,
-                        integrator: 80
+                        pioneer: 8, 
+                        guardian: 5, 
+                        driver: 2,
+                        integrator: 8
                     }, 
                     learningTypesStudent: {
                         visual: 2,
@@ -1713,10 +1714,10 @@ app.component('root',{
                         intrapersonal: 3
                     },
                     teamPersonality: {
-                        pioneer: 49, 
-                        guardian: 75, 
-                        driver: 60,
-                        integrator: 85
+                        pioneer: 4, 
+                        guardian: 7, 
+                        driver: 6,
+                        integrator: 5
                     }, 
                     learningTypesStudent: {
                         visual: 2,
@@ -1778,7 +1779,40 @@ app.component('root',{
         navclick(pageName){
             console.log("Button Click:" + pageName)
             this.page = pageName
+        },
+        test(){
+            window.mitt.emit('Studentdata', avgData)
+            console.log("mitt sent!", avgData) 
+        },
+        studentAverages(student){              
+            avgData = {
+                learning: {
+                    visual: (this.studentList[student].learningTypes.visual + this.studentList[student].learningTypesStudent.visual + this.studentList[student].learningTypesTeacher.visual)/3,
+                    kinaesthetic: (this.studentList[student].learningTypes.kinaesthetic + this.studentList[student].learningTypesStudent.kinaesthetic + this.studentList[student].learningTypesTeacher.kinaesthetic)/3,
+                    aural: (this.studentList[student].learningTypes.aural + this.studentList[student].learningTypesStudent.aural + this.studentList[student].learningTypesTeacher.aural)/3,
+                    social: (this.studentList[student].learningTypes.social + this.studentList[student].learningTypesStudent.social + this.studentList[student].learningTypesTeacher.social)/3,
+                    solitary: (this.studentList[student].learningTypes.solitary + this.studentList[student].learningTypesStudent.solitary + this.studentList[student].learningTypesTeacher.solitary)/3,
+                    verbal: (this.studentList[student].learningTypes.verbal + this.studentList[student].learningTypesStudent.verbal + this.studentList[student].learningTypesTeacher.verbal)/3,
+                    logical: (this.studentList[student].learningTypes.logical + this.studentList[student].learningTypesStudent.logical + this.studentList[student].learningTypesTeacher.logical)/3,
+                },
+                intelligence: {
+                    naturalist: (this.studentList[student].typesOfIntelligence.naturalist + this.studentList[student].typesOfIntelligenceStudent.naturalist + this.studentList[student].typesOfIntelligenceTeacher.naturalist)/3,
+                    musical: (this.studentList[student].typesOfIntelligence.musical + this.studentList[student].typesOfIntelligenceStudent.naturalist + this.studentList[student].typesOfIntelligenceTeacher.naturalist)/3,
+                    logical_mathematical: (this.studentList[student].typesOfIntelligence.logical_mathematical + this.studentList[student].typesOfIntelligenceStudent.logical_mathematical + this.studentList[student].typesOfIntelligenceTeacher.logical_mathematical)/3,
+                    existential: (this.studentList[student].typesOfIntelligence.existential + this.studentList[student].typesOfIntelligenceStudent.existential + this.studentList[student].typesOfIntelligenceTeacher.existential)/3,
+                    interpersonal: (this.studentList[student].typesOfIntelligence.interpersonal + this.studentList[student].typesOfIntelligenceStudent.interpersonal + this.studentList[student].typesOfIntelligenceTeacher.interpersonal)/3,
+                    bodily_kinesthetic: (this.studentList[student].typesOfIntelligence.bodily_kinesthetic + this.studentList[student].typesOfIntelligenceStudent.bodily_kinesthetic + this.studentList[student].typesOfIntelligenceTeacher.bodily_kinesthetic)/3,
+                    linguistic: (this.studentList[student].typesOfIntelligence.linguistic + this.studentList[student].typesOfIntelligenceStudent.linguistic + this.studentList[student].typesOfIntelligenceTeacher.linguistic)/3,
+                    intrapersonal: (this.studentList[student].typesOfIntelligence.intrapersonal + this.studentList[student].typesOfIntelligenceStudent.intrapersonal + this.studentList[student].typesOfIntelligenceTeacher.intrapersonal)/3
+                },
+                team: {
+                    pioneer: (this.studentList[student].teamPersonality.pioneer + this.studentList[student].teamPersonalityStudent.pioneer + this.studentList[student].teamPersonalityTeacher.pioneer)/3, 
+                    guardian: (this.studentList[student].teamPersonality.guardian + this.studentList[student].teamPersonalityStudent.guardian + this.studentList[student].teamPersonalityTeacher.guardian)/3, 
+                    driver: (this.studentList[student].teamPersonality.driver + this.studentList[student].teamPersonalityStudent.driver + this.studentList[student].teamPersonalityTeacher.driver)/3,
+                    integrator: (this.studentList[student].teamPersonality.integrator + this.studentList[student].teamPersonalityStudent.integrator + this.studentList[student].teamPersonalityTeacher.integrator)/3
+                }
+            }
+           
         }
     }
-
 })
