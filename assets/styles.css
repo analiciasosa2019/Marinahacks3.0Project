@@ -160,3 +160,74 @@ nav {
     flex: 1;
     border: none;
   }
+
+.testPage{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.summaryOuterBox{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+.studentListArea{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 40%;
+  height: 82vh;
+}
+
+.graphArea{
+  border: solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+
+}
+
+.spiderChartArea{
+  border: solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 51vh;
+  padding: 10px;
+}
+
+.lineGraphArea{
+  border: solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 28vh;
+  padding: 10px;
+}
+
+.studentInfo{
+  border: solid;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 82vh;
+  padding: 10px;
+}
+
+.studentList{
+  border: solid;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 82vh;
+  padding: 10px;
+}

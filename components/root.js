@@ -16,9 +16,13 @@ app.component('root',{
     <div v-show = "page == 'testMI'"><testMI></testMI></div> 
     <div v-show = "page == 'testTeam'"><testTeam></testTeam></div> 
     <div v-show = "page == 'testTEI'" > <testTEI></testTEI> </div> 
+
+    <!--
     <li v-for="(value, key) in studentList" :key="key">
-    {{ studentAverages(key) }}
+    {{ studentAverages(key) }}-->
     </li>
+
+
     `,
     data(){
         return{
