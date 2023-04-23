@@ -19,7 +19,7 @@ app.component('spider-chart', {
     data() {
       return {
         test: 'spider-chart',
-        chart: "",
+        chart: undefined,
         type: "Learning Types",
         labels: [],
         backgroundColor: "",
@@ -35,44 +35,44 @@ app.component('spider-chart', {
         setType(newType){
             this.type = newType;
             console.log("new type", this.type)
-            this.create(this.type)
+            this.create()
         },
-        create(type) {
+        create(){
             // Create a new chart instance
             if (this.chart) {
                 this.chart.destroy();
             }
-            //const canvas = this.type === "Learning Types" ? this.$refs.chart1 : this.type === "Intelligence Types" ? this.$refs.chart2: this.$refs.chart3;
-            let canvas = null;
+            const canvas = this.type === "Learning Types" ? this.$refs.chart1 : this.type === "Intelligence Types" ? this.$refs.chart2: this.$refs.chart3;
+            //let canvas = null;
             let chartData, labels, backgroundColor, borderColor;
             switch (this.type) {
                 case 'Learning Types':
-                  canvas = this.$refs.chart1;
-                  this.chartData = this.chartData1;
-                  this.labels = ['Visual', 'Kinaesthetic', 'Aural', 'Social', 'Solitary', 'Verbal', 'Logical'];
-                  this.backgroundColor = 'rgba(255, 99, 132, 0.2)';
-                  this.borderColor = 'rgba(255, 99, 132, 1)';
+                  //canvas = this.$refs.chart1;
+                  chartData = this.chartData1;
+                  labels = ['Visual', 'Kinaesthetic', 'Aural', 'Social', 'Solitary', 'Verbal', 'Logical'];
+                  backgroundColor = 'rgba(255, 99, 132, 0.2)';
+                  borderColor = 'rgba(255, 99, 132, 1)';
                   break;
                 case 'Intelligence Types':
-                  canvas = this.$refs.chart2;
-                  this.chartData = this.chartData2;
-                  this.labels = ['Naturalist', 'Musical', 'Logical/Mathematical', 'Existential', 'Interpersonal', 'Bodily/Kinesthetic', 'Linguistic', 'Intrapersonal'];
-                  this.backgroundColor = 'rgba(54, 162, 235, 0.2)';
-                  this.borderColor = 'rgba(54, 162, 235, 1)';
+                  //canvas = this.$refs.chart2;
+                  chartData = this.chartData2;
+                  labels = ['Naturalist', 'Musical', 'Logical/Mathematical', 'Existential', 'Interpersonal', 'Bodily/Kinesthetic', 'Linguistic', 'Intrapersonal'];
+                  backgroundColor = 'rgba(54, 162, 235, 0.2)';
+                  borderColor = 'rgba(54, 162, 235, 1)';
                   break;
                 case 'Team Personalitys':
-                  canvas = this.$refs.chart3;
-                  this.chartData = this.chartData3;
-                  this.labels = ['Pioneer', 'Guardian', 'Driver', 'Integrator'];
-                  this.backgroundColor = 'rgba(75, 192, 192, 0.2)';
-                  this.borderColor = 'rgba(75, 192, 192, 1)';
+                  //canvas = this.$refs.chart3;
+                  chartData = this.chartData3;
+                  labels = ['Pioneer', 'Guardian', 'Driver', 'Integrator'];
+                  backgroundColor = 'rgba(75, 192, 192, 0.2)';
+                  borderColor = 'rgba(75, 192, 192, 1)';
                   break;
                 default:
-                  canvas = this.$ref.chart3;
-                  this.chartData = this.chartData3;
-                  this.labels = ['Pioneer', 'Guardian', 'Driver', 'Integrator'];
-                  this.backgroundColor = 'rgba(75, 192, 192, 0.2)';
-                  this.borderColor = 'rgba(75, 192, 192, 1)';
+                  //canvas = this.$ref.chart3;
+                  chartData = this.chartData3;
+                  labels = ['Pioneer', 'Guardian', 'Driver', 'Integrator'];
+                  backgroundColor = 'rgba(75, 192, 192, 0.2)';
+                  borderColor = 'rgba(75, 192, 192, 1)';
                   break;
               }
               this.chart = new Chart(canvas, {
@@ -108,8 +108,7 @@ app.component('spider-chart', {
     mounted() {
         window.mitt.on('Studentdata', (avgData) => {
         console.log("mitt recieved!", avgData)
-        })
-        const studentLearning = avgData.learning;
+                const studentLearning = avgData.learning;
         const studentIntelligence = avgData.intelligence;
         const teamPersonality = avgData.team;
         this.chartData1 = [
@@ -137,7 +136,9 @@ app.component('spider-chart', {
             teamPersonality.driver,
             teamPersonality.integrator
         ]
-        this.create(this.type);
+        this.chart = this.create();
+        })
+
         
          // add studentId
       
