@@ -1782,7 +1782,7 @@ app.component('root',{
         },
         test(){
             window.mitt.emit('Studentdata', avgData)
-            console.log("mitt sent!", avgData["learning"]) 
+            console.log("mitt sent!", avgData) 
         },
         studentAverages(student){              
             avgData = {
