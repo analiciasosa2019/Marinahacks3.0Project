@@ -53,7 +53,9 @@ app.component('summaryPage', {
     methods: {
       selectStudent(student) {
         this.selectedStudent = student;
-        this.$emit('student-selected', student);
+       // console.log("mitt sent")
+       window.mitt.emit('studentData', student);
+
       },
     },
   });

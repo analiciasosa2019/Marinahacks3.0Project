@@ -3,7 +3,6 @@ app.component('testMI',{
     /*html*/
     `
    
-    <barChart></barChart>
    
     
     `,
