@@ -176,7 +176,6 @@ app.component('root',{
                         intrapersonal: 9
                     },
                     teamPersonality: {
-<<<<<<< HEAD
                         pioneer: 60,
                         guardian: 80,
                         driver: 87,
@@ -205,13 +204,11 @@ app.component('root',{
                         pioneer: 8,
                         guardian: 6,
                         driver: 9,
-                        integrator: 7
-=======
+                        integrator: 7,
                         pioneer: 6,
                         guardian: 8,
                         driver: 7,
                         integrator: 3
->>>>>>> origin/megan-edit
                     }
                 },
                 {
@@ -244,7 +241,6 @@ app.component('root',{
                         intrapersonal: 9
                     },
                     teamPersonality: {
-<<<<<<< HEAD
                         pioneer: 45, 
                         guardian: 72, 
                         driver: 84,
@@ -273,13 +269,11 @@ app.component('root',{
                         pioneer: 7,
                         guardian: 9,
                         driver: 6,
-                        integrator: 8
-=======
+                        integrator: 8,
                         pioneer: 4, 
                         guardian: 7, 
                         driver: 8,
                         integrator: 6
->>>>>>> origin/megan-edit
                     }
                 },
                 {
@@ -312,7 +306,6 @@ app.component('root',{
                         intrapersonal: 8
                     },
                     teamPersonality: {
-<<<<<<< HEAD
                         pioneer: 72, 
                         guardian: 62, 
                         driver: 79,
@@ -341,13 +334,11 @@ app.component('root',{
                         pioneer: 7,
                         guardian: 9,
                         driver: 6,
-                        integrator: 2
-=======
+                        integrator: 2,
                         pioneer: 2, 
                         guardian: 6, 
                         driver: 9,
                         integrator: 5
->>>>>>> origin/megan-edit
                     }
                 },
                 {
@@ -380,7 +371,6 @@ app.component('root',{
                         intrapersonal: 9
                     },
                     teamPersonality: {
-<<<<<<< HEAD
                         pioneer: 68, 
                         guardian: 58, 
                         driver: 80,
@@ -409,13 +399,11 @@ app.component('root',{
                         pioneer: 8,
                         guardian: 5,
                         driver: 6,
-                        integrator: 9
-=======
+                        integrator: 9,
                         pioneer: 6, 
                         guardian: 8, 
                         driver: 8,
                         integrator: 2
->>>>>>> origin/megan-edit
                     }
                 },
                 {
@@ -448,7 +436,6 @@ app.component('root',{
                         intrapersonal: 3
                     },
                     teamPersonality: {
-<<<<<<< HEAD
                         pioneer: 75, 
                         guardian: 72, 
                         driver: 69,
@@ -477,11 +464,10 @@ app.component('root',{
                         pioneer: 5,
                         guardian: 7,
                         driver: 6,
-=======
+                        integrator: 8,
                         pioneer: 5, 
                         guardian: 7, 
                         driver: 9,
->>>>>>> origin/megan-edit
                         integrator: 8
                     }
                 },
@@ -515,7 +501,6 @@ app.component('root',{
                         intrapersonal: 9
                     },
                     teamPersonality: {
-<<<<<<< HEAD
                         pioneer: 72, 
                         guardian: 59, 
                         driver: 83,
@@ -544,13 +529,11 @@ app.component('root',{
                         pioneer: 7,
                         guardian: 5,
                         driver: 8,
-                        integrator: 6
-=======
+                        integrator: 6,
                         pioneer: 2, 
                         guardian: 9, 
                         driver: 8,
                         integrator: 3
->>>>>>> origin/megan-edit
                     }
                 },
                 {
@@ -583,11 +566,10 @@ app.component('root',{
                         intrapersonal: 9
                     },
                     teamPersonality: {
-<<<<<<< HEAD
-                        pioneer: 77, 
-                        guardian: 63, 
-                        driver: 79,
-                        integrator: 28
+                        pioneer: 7, 
+                        guardian: 6, 
+                        driver: 9,
+                        integrator: 2
                     }, 
                     learningTypesStudent: {
                         visual: 5,
@@ -613,12 +595,6 @@ app.component('root',{
                         guardian: 9,
                         driver: 4,
                         integrator: 7
-=======
-                        pioneer: 7, 
-                        guardian: 6, 
-                        driver: 9,
-                        integrator: 2
->>>>>>> origin/megan-edit
                     }
                 },
                 {
@@ -651,11 +627,10 @@ app.component('root',{
                         intrapersonal: 9
                     },
                     teamPersonality: {
-<<<<<<< HEAD
-                        pioneer: 73, 
-                        guardian: 76, 
-                        driver: 81,
-                        integrator: 67
+                        pioneer: 7, 
+                        guardian: 7, 
+                        driver: 8,
+                        integrator: 3
                     }, 
                     learningTypesStudent: {
                         visual: 6,
@@ -682,13 +657,6 @@ app.component('root',{
                         driver: 4,
                         integrator: 9
                     }       
-=======
-                        pioneer: 7, 
-                        guardian: 7, 
-                        driver: 8,
-                        integrator: 3
-                    }
->>>>>>> origin/megan-edit
                 },
                 {
                     id: 11,
@@ -720,11 +688,10 @@ app.component('root',{
                         intrapersonal: 9
                     },
                     teamPersonality: {
-<<<<<<< HEAD
-                        pioneer: 75, 
-                        guardian: 72, 
-                        driver: 81,
-                        integrator: 69
+                        pioneer: 7, 
+                        guardian: 2, 
+                        driver: 1,
+                        integrator: 6
                     }, 
                     learningTypesStudent: {
                         visual: 4,
@@ -750,12 +717,6 @@ app.component('root',{
                         guardian: 7,
                         driver: 6,
                         integrator: 5
-=======
-                        pioneer: 7, 
-                        guardian: 2, 
-                        driver: 1,
-                        integrator: 6
->>>>>>> origin/megan-edit
                     }
                 },
                 {
@@ -788,11 +749,10 @@ app.component('root',{
                         intrapersonal: 1
                     },
                     teamPersonality: {
-<<<<<<< HEAD
-                        pioneer: 70, 
-                        guardian: 71, 
-                        driver: 23,
-                        integrator: 64
+                        pioneer: 7, 
+                        guardian: 7, 
+                        driver: 3,
+                        integrator: 4
                     }, 
                     learningTypesStudent: {
                         visual: 4,
@@ -818,12 +778,6 @@ app.component('root',{
                         guardian: 7,
                         driver: 6,
                         integrator: 5
-=======
-                        pioneer: 7, 
-                        guardian: 7, 
-                        driver: 3,
-                        integrator: 4
->>>>>>> origin/megan-edit
                     }
                 },
                 {
@@ -856,7 +810,6 @@ app.component('root',{
                         intrapersonal: 8
                     },
                     teamPersonality: {
-<<<<<<< HEAD
                         pioneer: 68, 
                         guardian: 75, 
                         driver: 80,
@@ -886,12 +839,6 @@ app.component('root',{
                         guardian: 7,
                         driver: 6,
                         integrator: 8
-=======
-                        pioneer: 6, 
-                        guardian: 7, 
-                        driver: 8,
-                        integrator: 7
->>>>>>> origin/megan-edit
                     }
                 },
                 {
@@ -924,7 +871,6 @@ app.component('root',{
                         intrapersonal: 4
                     },
                     teamPersonality: {
-<<<<<<< HEAD
                         pioneer: 67, 
                         guardian: 72, 
                         driver: 77,
@@ -953,11 +899,10 @@ app.component('root',{
                         pioneer: 6,
                         guardian: 8,
                         driver: 5,
-=======
+                        integrator: 6,
                         pioneer: 6, 
                         guardian: 7, 
                         driver: 7,
->>>>>>> origin/megan-edit
                         integrator: 6
                     }
                 },                
@@ -991,7 +936,6 @@ app.component('root',{
                         intrapersonal: 4
                     },
                     teamPersonality: {
-<<<<<<< HEAD
                         pioneer: 63, 
                         guardian: 46, 
                         driver: 79,
@@ -1020,13 +964,11 @@ app.component('root',{
                         pioneer: 7,
                         guardian: 6,
                         driver: 5,
-                        integrator: 8
-=======
+                        integrator: 8,
                         pioneer: 3, 
                         guardian: 6, 
                         driver: 7,
                         integrator: 3
->>>>>>> origin/megan-edit
                     }
                 },
                 {
@@ -1059,11 +1001,37 @@ app.component('root',{
                         intrapersonal: 2
                     },
                     teamPersonality: {
-                        pioneer: 1, 
-                        guardian: 4, 
-                        driver: 5,
-                        integrator: 6
-                    }
+                        pioneer: 71, 
+                        guardian: 41, 
+                        driver: 25,
+                        integrator: 69
+                    }, 
+                        learningTypesStudent: {
+                          visual: 6,
+                          kinaesthetic: 4,
+                          aural: 9,
+                          social: 2,
+                          solitary: 7,
+                          verbal: 8,
+                          logical: 1
+                        },
+                        typesOfIntelligenceStudent: {
+                          naturalist: 3,
+                          musical: 6,
+                          logical_mathematical: 4,
+                          existential: 9,
+                          interpersonal: 5,
+                          bodily_kinesthetic: 7,
+                          linguistic: 2,
+                          intrapersonal: 8
+                        },
+                        teamPersonalityStudent: {
+                          pioneer: 7,
+                          guardian: 5,
+                          driver: 8,
+                          integrator: 2
+                        }
+                      
                 },
                 {
                     id: 17,
@@ -1095,11 +1063,36 @@ app.component('root',{
                         intrapersonal: 5
                     },
                     teamPersonality: {
-                        pioneer: 9, 
-                        guardian: 9, 
-                        driver: 2,
-                        integrator: 5
-                    }
+                        pioneer: 79, 
+                        guardian: 90, 
+                        driver: 92,
+                        integrator: 85
+                    }, 
+                    learningTypesStudent: {
+                        visual: 8,
+                        kinaesthetic: 5,
+                        aural: 3,
+                        social: 7,
+                        solitary: 4,
+                        verbal: 6,
+                        logical: 2
+                      },
+                      typesOfIntelligenceStudent: {
+                        naturalist: 6,
+                        musical: 4,
+                        logical_mathematical: 7,
+                        existential: 2,
+                        interpersonal: 9,
+                        bodily_kinesthetic: 5,
+                        linguistic: 8,
+                        intrapersonal: 3
+                      },
+                      teamPersonalityStudent: {
+                        pioneer: 4,
+                        guardian: 8,
+                        driver: 6,
+                        integrator: 7
+                      }
                 },
                 {
                     id: 18,
@@ -1131,11 +1124,35 @@ app.component('root',{
                         intrapersonal: 4
                     },
                     teamPersonality: {
-                        pioneer: 2, 
-                        guardian: 8, 
+                        pioneer: 82, 
+                        guardian: 80, 
+                        driver: 75,
+                        integrator: 81
+                    }, learningTypesStudent: {
+                        visual: 4,
+                        kinaesthetic: 6,
+                        aural: 8,
+                        social: 1,
+                        solitary: 9,
+                        verbal: 2,
+                        logical: 7
+                      },
+                      typesOfIntelligenceStudent: {
+                        naturalist: 5,
+                        musical: 9,
+                        logical_mathematical: 3,
+                        existential: 4,
+                        interpersonal: 7,
+                        bodily_kinesthetic: 8,
+                        linguistic: 6,
+                        intrapersonal: 2
+                      },
+                      teamPersonalityStudent: {
+                        pioneer: 8,
+                        guardian: 7,
                         driver: 5,
                         integrator: 1
-                    }
+                      }
                 },
                 {
                     id: 19,
@@ -1167,11 +1184,36 @@ app.component('root',{
                         intrapersonal: 2
                     },
                     teamPersonality: {
-                        pioneer: 2, 
-                        guardian: 5, 
-                        driver: 7,
-                        integrator: 8
-                    }
+                        pioneer: 28, 
+                        guardian: 45, 
+                        driver: 72,
+                        integrator: 80
+                    }, 
+                    learningTypesStudent: {
+                        visual: 2,
+                        kinaesthetic: 9,
+                        aural: 4,
+                        social: 6,
+                        solitary: 5,
+                        verbal: 1,
+                        logical: 8
+                      },
+                      typesOfIntelligenceStudent: {
+                        naturalist: 7,
+                        musical: 3,
+                        logical_mathematical: 5,
+                        existential: 2,
+                        interpersonal: 6,
+                        bodily_kinesthetic: 4,
+                        linguistic: 9,
+                        intrapersonal: 8
+                      },
+                      teamPersonalityStudent: {
+                        pioneer: 6,
+                        guardian: 8,
+                        driver: 3,
+                        integrator: 4
+                      }
                 },
                 {
                     id: 20,
@@ -1203,11 +1245,36 @@ app.component('root',{
                         intrapersonal: 3
                     },
                     teamPersonality: {
-                        pioneer: 9, 
-                        guardian: 7, 
-                        driver: 6,
-                        integrator: 8
-                    }
+                        pioneer: 49, 
+                        guardian: 75, 
+                        driver: 60,
+                        integrator: 85
+                    }, 
+                    learningTypesStudent: {
+                        visual: 2,
+                        kinaesthetic: 9,
+                        aural: 4,
+                        social: 6,
+                        solitary: 5,
+                        verbal: 1,
+                        logical: 8
+                      },
+                      typesOfIntelligenceStudent: {
+                        naturalist: 7,
+                        musical: 3,
+                        logical_mathematical: 5,
+                        existential: 2,
+                        interpersonal: 6,
+                        bodily_kinesthetic: 4,
+                        linguistic: 9,
+                        intrapersonal: 8
+                      },
+                      teamPersonalityStudent: {
+                        pioneer: 6,
+                        guardian: 8,
+                        driver: 3,
+                        integrator: 4
+                      }
                 }
                 
                         
