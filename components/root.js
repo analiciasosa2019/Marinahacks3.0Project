@@ -1814,5 +1814,5 @@ app.component('root',{
             }
            
         }
-    
+    }
 })
