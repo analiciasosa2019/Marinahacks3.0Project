@@ -6,13 +6,16 @@ app.component('testTEI',{
     template: 
     /*html*/
     ` 
+    <div class = "testPage">
     <div class = "testBox">
     
     Question {{ currentQuestion }}: {{ currentQuestionText }}
     <div style="margin: 20px;">
         <div style="display: flex; justify-content: space-between;">
             <span>Strongly Disagree</span>
+            <span>Disagree</span>
             <span>Neutral</span>
+            <span>Agree</span>
             <span>Strongly Agree</span>
         </div>
         <input type="range" min="1" max="7" v-model="sliderName" style="width: 100%">
@@ -21,7 +24,8 @@ app.component('testTEI',{
   
     </div>
     <div style="display: flex; justify-content: flex-end; margin-top: 20px;">
-    <button @click = "nextQ" style="margin: 50px; padding: 10px 20px; border-radius: 5px; background-color: #4CAF50; color: white; border: none; cursor: pointer;">Next</button>
+    <button @click = "nextQ" style="margin: 50px; padding: 10px 20px; border-radius: 5px; background-color: purple; color: white; border: none; cursor: pointer;">Next</button>
+    </div>
     </div>
     `,
     data(){
