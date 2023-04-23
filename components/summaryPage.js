@@ -3,7 +3,6 @@ app.component('summaryPage',{
     /*html*/
     `
     {{pageTitle}} 
-    <spider-chart></spider-chart>
     
     
     `,

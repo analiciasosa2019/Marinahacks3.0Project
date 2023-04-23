@@ -2,10 +2,6 @@ app.component('root',{
     template: 
     /*html*/
     `
-    <navBar></navBar>
-    div v-show = "page == 'testTEI'" > <testTEI></testTEI> </div> 
-    <div v-show = "page == 'summary'" > <summary></summary> </div> 
-    <div v-show = "page == 'instructorevaluation'"> <instructorevaluation></instructorevaluation></div> 
     
     <nav>
       <button class = "navButton" @click = "navclick('summary')">Summary</button> 
@@ -21,6 +17,8 @@ app.component('root',{
     <div v-show = "page == 'lessonchat'"> <lessonchat></lessonchat> </div> 
     <div v-show = "page == 'testMI'"><testMI></testMI></div> 
     <div v-show = "page == 'testTeam'"><testTeam></testTeam></div> 
+    <div v-show = "page == 'testTEI'" > <testTEI></testTEI> </div> 
+    
     `,
     data(){
         return{
