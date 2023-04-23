@@ -2,18 +2,13 @@ app.component('instructorevaluation',{
     template: 
     /*html*/
     `
-    <div> </div> 
-    <slider></slider>
-    {{test}}
+    
+    {{title}}
     
     `,
     data(){
         return{
-            test: "hellooooo!!! this student",
-            data: {
-                moredata: "S"
-            }
-
+            title: "instructor evaluation"
         }
     }, 
     method:{

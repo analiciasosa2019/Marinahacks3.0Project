@@ -1,15 +1,15 @@
-app.component('navBar',{
+app.component('summaryPage',{
     template: 
     /*html*/
     `
-  
-
-    {{test}}
+    {{pageTitle}} 
+    <spider-chart></spider-chart>
+    
     
     `,
     data(){
         return{
-            test: "test",
+            pageTitle: "Summary",
             data: {
                 moredata: "S"
             }

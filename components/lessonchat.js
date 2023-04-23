@@ -1,15 +1,15 @@
-app.component('lessonchat.js',{
+app.component('lessonchat',{
     template: 
     /*html*/
     `
     <div> </div> 
 
-    {{test}}
+    {{title}}
     
     `,
     data(){
         return{
-            test: "test",
+            title: "Lesson Chat",
             data: {
                 moredata: "S"
             }

@@ -1,15 +1,15 @@
-app.component('testTeam.js',{
+app.component('testTeam',{
     template: 
     /*html*/
     `
     <div> </div> 
 
-    {{test}}
+    {{title}}
     
     `,
     data(){
         return{
-            test: "test",
+            title: "Teamwork Type Test",
             data: {
                 moredata: "S"
             }
