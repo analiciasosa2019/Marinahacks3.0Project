@@ -7,7 +7,6 @@ app.component('testTEI',{
     /*html*/
     ` 
     <div class = "testBox">
-    Please Answer the Question Below: 
     
     Question {{ currentQuestion }}: {{ currentQuestionText }}
     <div style="margin: 20px;">
@@ -16,17 +15,18 @@ app.component('testTEI',{
             <span>Neutral</span>
             <span>Strongly Agree</span>
         </div>
-        <input type="range" min="1" max="7" value="4" v-model="sliderName" style="width: 100%; margin-top: 10px;">
+        <input type="range" min="1" max="7" v-model="sliderName" style="width: 100%">
        
         </div>
-    </li>
+  
     </div>
     <div style="display: flex; justify-content: flex-end; margin-top: 20px;">
-    <button style="padding: 10px 20px; border-radius: 5px; background-color: #4CAF50; color: white; border: none; cursor: pointer;">Next</button>
+    <button @click = "nextQ" style="margin: 50px; padding: 10px 20px; border-radius: 5px; background-color: #4CAF50; color: white; border: none; cursor: pointer;">Next</button>
     </div>
     `,
     data(){
         return{
+            sliderName: "",
             quizCompleted: false,
             currentQuestion: 1,
             questions:
@@ -62,10 +62,14 @@ app.component('testTEI',{
                 30: { text: "Others admire me for being relaxed.", reverseScore: false, answer: null, sliderName: "ad" }}
         }
     },
-    method:{      
+    methods:{      
         logSliderValue() {
             return questions[1].sliderName.value
-          }
+          },
+        nextQ(){
+            this.currentQuestion += 1;
+            //console.log(this.currentQuestion)
+        }
     },
     computed:{
         value(){
