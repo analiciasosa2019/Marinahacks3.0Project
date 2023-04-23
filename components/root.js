@@ -10,6 +10,8 @@ app.component('root',{
       <button class = "navButton" @click = "navclick('lessonchat')">Lesson Chat</button>
      </nav>
 
+     <button class="navButton" @click = 'test'>click</button>
+
     <div v-show = "page == 'summary'"><summaryPage></summaryPage></div>
     <div v-show = "page == 'instructorevauation'"><instructorevaluation></instructorevaluation></div> 
     <div v-show = "page == 'lessonchat'"> <lessonchat></lessonchat> </div> 
@@ -1778,6 +1780,10 @@ app.component('root',{
             console.log("Button Click:" + pageName)
             this.page = pageName
         },
+        test(){
+            window.mitt.emit('Studentdata', avgData)
+            console.log("mitt sent!", avgData["learning"]) 
+        },
         studentAverages(student){              
             avgData = {
                 learning: {
@@ -1804,11 +1810,9 @@ app.component('root',{
                     guardian: (this.studentList[student].teamPersonality.guardian + this.studentList[student].teamPersonalityStudent.guardian + this.studentList[student].teamPersonalityTeacher.guardian)/3, 
                     driver: (this.studentList[student].teamPersonality.driver + this.studentList[student].teamPersonalityStudent.driver + this.studentList[student].teamPersonalityTeacher.driver)/3,
                     integrator: (this.studentList[student].teamPersonality.integrator + this.studentList[student].teamPersonalityStudent.integrator + this.studentList[student].teamPersonalityTeacher.integrator)/3
-                }}
-            window.mitt.emit('Student data', avgData)
-            console.log("mitt sent!")
+                }
             }
-            
+           
         }
-    
+    }
 })
