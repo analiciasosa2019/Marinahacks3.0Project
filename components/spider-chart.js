@@ -138,7 +138,7 @@ app.component('spider-chart', {
         ]
         this.create(this.type); // add studentId
       
-    }
+    },
     methods:{
         create(studentId) {
               // Create a new chart instance
