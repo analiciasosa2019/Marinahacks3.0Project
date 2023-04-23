@@ -2,9 +2,11 @@ app.component('lessonchat',{
     template: 
     /*html*/
     `
-    <div> </div> 
+    <div>
+        <div class = "title">{{title}}</div>
+    </div> 
 
-    {{title}}
+    
     
     `,
     data(){

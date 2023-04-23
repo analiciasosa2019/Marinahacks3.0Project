@@ -2,14 +2,16 @@ app.component('summaryPage',{
     template: 
     /*html*/
     `
-    {{pageTitle}} 
+    <div>
+    <div class = "title">{{pageTitle}} </div>
     <spider-chart></spider-chart>
+    </div>
     
     
     `,
     data(){
         return{
-            pageTitle: "Summary Page",
+            pageTitle: "Student Summary",
           
 
         }
