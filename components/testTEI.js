@@ -6,31 +6,53 @@ app.component('testTEI',{
     template: 
     /*html*/
     ` 
-    <div class = "testBox">
-    
-    Question {{ currentQuestion }}: {{ currentQuestionText }}
-    <div style="margin: 20px;">
-        <div style="display: flex; justify-content: space-between;">
-            <span>Strongly Disagree</span>
-            <span>Neutral</span>
-            <span>Strongly Agree</span>
+    <div class = "testPage">
+        <div class = "title">{{title}}</div>
+        <div class = "testBox">
+            <div style = "align-items: center" v-show = "currentQuestion == 0">
+                <div class="testTitle">Begin Intellegence Type Test</div>
+                <button @click = "nextQ" class = "basicButton">Begin Now</button>
+            </div>
+            <div style = "width:90%" v-show = "currentQuestion != 0">
+                Question {{ currentQuestion }}: {{ currentQuestionText }}
+                <div style="margin: 20px; width: 100%">
+                    <div style="display: flex; justify-content: space-between;">
+                        <span>Strongly Disagree</span>
+                        <span>Disagree</span>
+                        <span>Neutral</span>
+                        <span>Agree</span>
+                        <span>Strongly Agree</span>
+                    </div>
+                <input type="range" min="1" max="7" v-model="sliderName" style="width: 100%">
+                </div>
+                <div style="display: flex; justify-content: flex-end; margin-top: 20px;">
+                    <button @click = "nextQ" style="margin: 50px; padding: 10px 20px; border-radius: 5px; background-color: purple; color: white; border: none; cursor: pointer;">Next</button>
+                </div>
+            </div>
         </div>
-        <input type="range" min="1" max="7" v-model="sliderName" style="width: 100%">
-       
+        <div class = "testBox">
+            <div style = "align-items: center" v-show = "currentQuestion == 0">
+                <div class="testTitle">Begin Teamwork Type Test</div>
+                <button @click = "nextQ" class = "basicButton">Begin Now</button>
+            </div>
         </div>
-  
-    </div>
-    <div style="display: flex; justify-content: flex-end; margin-top: 20px;">
-    <button @click = "nextQ" style="margin: 50px; padding: 10px 20px; border-radius: 5px; background-color: #4CAF50; color: white; border: none; cursor: pointer;">Next</button>
-    </div>
+
+        <div class = "testBox">
+            <div style = "align-items: center" v-show = "currentQuestion == 0">
+                <div class="testTitle">Begin Teamwork Type Test</div>
+                <button @click = "nextQ" class = "basicButton">Begin Now</button>
+            </div>
     `,
     data(){
         return{
+            title: "Intellegence Type Evaluation",
             sliderName: "",
             quizCompleted: false,
-            currentQuestion: 1,
+            currentQuestion: 0,
             questions:
-                {1: { text: "Expressing my emotions with words is not a problem for me.", reverseScore: false, answer: false, sliderName: "a" },
+                {
+                0: {text: "",reverseScore:false, answer:false, sliderName: "Begin"},
+                1: { text: "Expressing my emotions with words is not a problem for me.", reverseScore: false, answer: false, sliderName: "a" },
                 2: { text: "I often find it difficult to see things from another person’s viewpoint.", reverseScore: true, answer: null, sliderName: "b" },
                 3: { text: "On the whole, I’m a highly motivated person.", reverseScore: false, answer: null, sliderName: "c" },
                 4: { text: "I usually find it difficult to regulate my emotions.", reverseScore: true, answer: null, sliderName: "d" },
