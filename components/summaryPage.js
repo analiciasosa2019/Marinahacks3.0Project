@@ -9,7 +9,7 @@ app.component('summaryPage', {
                 <spider-chart></spider-chart>
             </div>
             <div class="lineGraphArea">
-                <barChart></barChart>
+                <div class = "barChartWrapper"><barChart></barChart></div>
             </div>
         </div>
         

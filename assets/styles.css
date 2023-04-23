@@ -207,3 +207,8 @@ nav {
   height: 82vh;
   padding: 10px;
 }
+
+.barChartWrapper{
+  width: 100%;
+  height: 30vh;
+}
