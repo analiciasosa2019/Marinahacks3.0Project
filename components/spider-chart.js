@@ -1,14 +1,17 @@
-app.component('instructorevaluation',{
+app.component('spider-chart',{
     template: 
     /*html*/
     `
-    
-    {{title}}
+    <div> 
+    <h1> Hi </h1>
+    </div> 
+    {{test}}
     
     `,
     data(){
         return{
-            title: "instructor evaluation"
+            test: "spider-chart",
+
         }
     }, 
     method:{

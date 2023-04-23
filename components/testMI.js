@@ -1,18 +1,15 @@
-app.component('testMI.js',{
+app.component('testMI',{
     template: 
     /*html*/
     `
     <div> </div> 
 
-    {{test}}
+    {{title}}
     
     `,
     data(){
         return{
-            test: "test",
-            data: {
-                moredata: "S"
-            }
+            title: "Learning Type Test",
 
         }
     }, 
