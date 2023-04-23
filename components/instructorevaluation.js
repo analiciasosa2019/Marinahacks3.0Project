@@ -3,13 +3,13 @@ app.component('instructorevaluation',{
     /*html*/
     `
     <div> </div> 
-
+    <slider></slider>
     {{test}}
     
     `,
     data(){
         return{
-            test: "test",
+            test: "hellooooo!!! this student",
             data: {
                 moredata: "S"
             }

@@ -3,6 +3,7 @@ app.component('summary',{
     /*html*/
     `
     <div> </div> 
+    <spider-chart></spider-chart>
 
     {{test}}
     
