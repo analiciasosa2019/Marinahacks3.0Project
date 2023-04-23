@@ -15,7 +15,7 @@ app.component('summaryPage',{
         <div class = "studentListArea">
             <div class = "studentInfo"></div>
             <div class = "studentList">
-                
+
             </div>
         </div>
         
@@ -30,6 +30,12 @@ app.component('summaryPage',{
         studentList: Array,
     },
     method:{
-    }
+        emitStudent(){
+            obj = {
+                
+            }
+            window.mitt.on("studentData",obj)
+        }
+    },
 
 })
