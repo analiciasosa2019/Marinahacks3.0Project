@@ -13,7 +13,7 @@ app.component('root',{
 
    
 
-    <div v-show = "page == 'summary'"><summaryPage studentList = "studentList"></summaryPage></div>
+    <div v-show = "page == 'summary'"><summaryPage :studentList = "studentList"></summaryPage></div>
     <div v-show = "page == 'instructorevauation'"><instructorevaluation></instructorevaluation></div> 
     <div v-show = "page == 'lessonchat'"> <lessonchat></lessonchat> </div> 
     <div v-show = "page == 'testMI'"><testMI></testMI></div> 
