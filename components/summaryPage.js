@@ -1,15 +1,15 @@
-app.component('testTeam',{
+app.component('summaryPage',{
     template: 
     /*html*/
     `
-    <div> </div> 
-
-    {{title}}
+    {{pageTitle}} 
+    <spider-chart></spider-chart>
+    
     
     `,
     data(){
         return{
-            title: "Teamwork Type Test",
+            pageTitle: "Summary",
             data: {
                 moredata: "S"
             }
