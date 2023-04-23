@@ -14,7 +14,9 @@ app.component('summaryPage',{
         </div>
         <div class = "studentListArea">
             <div class = "studentInfo"></div>
-            <div class = "studentList"></div>
+            <div class = "studentList">
+                
+            </div>
         </div>
         
     </div>
@@ -24,6 +26,9 @@ app.component('summaryPage',{
             pageTitle: "Student Summary"
         }
     }, 
+    props:{
+        studentList: Array,
+    },
     method:{
     }
 
