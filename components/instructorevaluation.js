@@ -20,7 +20,7 @@ app.component('instructorevaluation',{
   </div>
  
 </div>
-<div class = "submitButton"><button class = "navButton" @click = "submit">Submit</button></div>
+<div class = "submitButton"><button class = "navButton" @click = "submit()">Submit</button></div>
 </div>
 
 

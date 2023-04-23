@@ -2,10 +2,9 @@ app.component('testMI',{
     template: 
     /*html*/
     `
-    <div> 
-    <div class = "title">{{title}}</div>
-    <button class = "navButton">Lesson Chat</button>
-    </div> 
+   
+    <barChart></barChart>
+   
     
     `,
     data(){

@@ -7,20 +7,30 @@ app.component('root',{
       <button class = "navButton" @click = "navclick('summaryPage')">Summary</button> 
       <button class = "navButton" @click = "navclick('instructorevauation')">Evaluation</button>
       <button class = "navButton" @click = "navclick('testTEI')">Intelligence Tests</button>
+      <button class = "navButton" @click = "navclick('testTEI')">Intelligence Tests</button>
       <button class = "navButton" @click = "navclick('lessonchat')">Lesson Chat</button>
+      <button class = "navButton" @click = "navclick('testMI')">test MI</button>
      </nav>
+
+   
 
      <button class="navButton" @click = 'test'>click</button>
 
-    <div v-show = "page == 'summary'"><summaryPage></summaryPage></div>
+    <div v-show = "page == 'summary'"><summaryPage :studentList = "studentList"></summaryPage></div>
     <div v-show = "page == 'instructorevauation'"><instructorevaluation></instructorevaluation></div> 
     <div v-show = "page == 'lessonchat'"> <lessonchat></lessonchat> </div> 
     <div v-show = "page == 'testMI'"><testMI></testMI></div> 
     <div v-show = "page == 'testTeam'"><testTeam></testTeam></div> 
     <div v-show = "page == 'testTEI'" > <testTEI></testTEI> </div> 
+
+    <!--
     <li v-for="(value, key) in studentList" :key="key">
     {{ studentAverages(key) }}
-    </li>
+    
+      <button class="navButton" @click = 'test'>click</button>
+    </li>-->
+
+
     `,
     data(){
         return{
@@ -44,6 +54,13 @@ app.component('root',{
                         solitary: 7,
                         verbal: 4,
                         logical: 5
+                        visual: 4,
+                        kinaesthetic: 8,
+                        aural: 5,
+                        social: 8,
+                        solitary: 7,
+                        verbal: 4,
+                        logical: 5
                     },
                     typesOfIntelligence: {
                         naturalist: 4,
@@ -54,8 +71,20 @@ app.component('root',{
                         bodily_kinesthetic: 7,
                         linguistic: 7,
                         intrapersonal: 4
+                        naturalist: 4,
+                        musical: 6,
+                        logical_mathematical: 7,
+                        existential: 9,
+                        interpersonal: 4,
+                        bodily_kinesthetic: 7,
+                        linguistic: 7,
+                        intrapersonal: 4
                     },
                     teamPersonality: {
+                        pioneer: 5, 
+                        guardian: 4, 
+                        driver: 9,
+                        integrator: 5
                         pioneer: 5, 
                         guardian: 4, 
                         driver: 9,
@@ -131,6 +160,13 @@ app.component('root',{
                         solitary: 1,
                         verbal: 3,
                         logical: 7
+                        visual: 5,
+                        kinaesthetic: 7,
+                        aural: 4,
+                        social: 8,
+                        solitary: 1,
+                        verbal: 3,
+                        logical: 7
                     },
                     typesOfIntelligence: {
                         naturalist: 3,
@@ -141,8 +177,20 @@ app.component('root',{
                         bodily_kinesthetic: 7,
                         linguistic: 8,
                         intrapersonal: 2
+                        naturalist: 3,
+                        musical: 6,
+                        logical_mathematical: 9,
+                        existential: 1,
+                        interpersonal: 5,
+                        bodily_kinesthetic: 7,
+                        linguistic: 8,
+                        intrapersonal: 2
                     },
                     teamPersonality: {
+                        pioneer: 2,
+                        guardian: 7,
+                        driver: 8,
+                        integrator: 1
                         pioneer: 2,
                         guardian: 7,
                         driver: 8,
@@ -233,6 +281,10 @@ app.component('root',{
                         guardian: 5,
                         driver: 8,
                         integrator: 5
+                        pioneer: 6,
+                        guardian: 5,
+                        driver: 8,
+                        integrator: 5
                     },
                     learningTypesStudent: {
                         visual: 7,
@@ -319,6 +371,10 @@ app.component('root',{
                         intrapersonal: 9
                     },
                     teamPersonality: {
+                        pioneer: 5, 
+                        guardian: 7, 
+                        driver: 8,
+                        integrator: 3,
                         pioneer: 5, 
                         guardian: 7, 
                         driver: 8,
@@ -413,6 +469,10 @@ app.component('root',{
                         guardian: 2, 
                         driver: 7,
                         integrator: 5
+                        pioneer: 7, 
+                        guardian: 2, 
+                        driver: 7,
+                        integrator: 5
                     },
                     learningTypesStudent: {
                         visual: 6,
@@ -499,6 +559,10 @@ app.component('root',{
                         intrapersonal: 9
                     },
                     teamPersonality: {
+                        pioneer: 6, 
+                        guardian: 5, 
+                        driver: 8,
+                        integrator: 2
                         pioneer: 6, 
                         guardian: 5, 
                         driver: 8,
@@ -1815,4 +1879,7 @@ app.component('root',{
            
         }
     }
+        }
+    }
+
 })
