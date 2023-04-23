@@ -39,7 +39,7 @@ app.component('barChart', {
               , // Specify the labels for the axes
               datasets: [
                 {
-                  label: "math", // Specify the legend label for the dataset
+                  label: "Math", // Specify the legend label for the dataset
                   data: Object.values(this.barData.math), // Specify the data for the axes
                   fill: false, // Specify that the area under the line should be filled
                   //backgroundColor: 'rgba(255, 99, 132, 0.2)', // Specify the background color for the area
@@ -47,7 +47,7 @@ app.component('barChart', {
                   borderWidth: 1 // Specify the border width for the area
                 },
                 {
-                  label: Object.values(this.barData), // Specify the legend label for the dataset
+                  label: "English", // Specify the legend label for the dataset
                   data: Object.values(this.barData.english), // Specify the data for the axes
                   fill: false, // Specify that the area under the line should be filled
                   //backgroundColor: 'rgba(255, 99, 132, 0.2)', // Specify the background color for the area
@@ -55,7 +55,7 @@ app.component('barChart', {
                   borderWidth: 1 // Specify the border width for the area
                 },            
                 {
-                  label: Object.values(this.barData), // Specify the legend label for the dataset
+                  label: "Science", // Specify the legend label for the dataset
                   data: Object.values(this.barData.science), // Specify the data for the axes
                   fill: false, // Specify that the area under the line should be filled
                   //backgroundColor: 'rgba(255, 99, 132, 0.2)', // Specify the background color for the area
@@ -63,7 +63,7 @@ app.component('barChart', {
                   borderWidth: 1 // Specify the border width for the area
                 },            
                 {
-                  label: Object.values(this.barData), // Specify the legend label for the dataset
+                  label: "History", // Specify the legend label for the dataset
                   data: Object.values(this.barData.history), // Specify the data for the axes
                   fill: false, // Specify that the area under the line should be filled
                   //backgroundColor: 'rgba(255, 99, 132, 0.2)', // Specify the background color for the area
