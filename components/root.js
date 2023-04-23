@@ -3,6 +3,7 @@ app.component('root',{
     /*html*/
     `
     <navBar></navBar>
+    div v-show = "page == 'testTEI'" > <testTEI></testTEI> </div> 
     <div v-show = "page == 'summary'" > <summary></summary> </div> 
     <div v-show = "page == 'instructorevaluation'"> <instructorevaluation></instructorevaluation></div> 
     <div v-show = "page == 'lessonchat'"> <lessonchat></lessonchat> </div> 
