@@ -3,15 +3,14 @@ app.component('summaryPage',{
     /*html*/
     `
     {{pageTitle}} 
+    <spider-chart></spider-chart>
     
     
     `,
     data(){
         return{
-            pageTitle: "Summary",
-            data: {
-                moredata: "S"
-            }
+            pageTitle: "Summary Page",
+          
 
         }
     }, 
