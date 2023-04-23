@@ -83,7 +83,33 @@ app.component('root',{
                         guardian: 9,
                         driver: 8,
                         integrator: 4
-                    }
+                    },
+                    learningTypesTeacher: {
+                        visual: 8,
+                        kinaesthetic: 5,
+                        aural: 3,
+                        social: 4,
+                        solitary: 6,
+                        verbal: 10,
+                        logical: 7
+                    },
+                    typesOfIntelligenceTeacher: {
+                        naturalist: 2,
+                        musical: 8,
+                        logical_mathematical: 7,
+                        existential: 9,
+                        interpersonal: 4,
+                        bodily_kinesthetic: 5,
+                        linguistic: 1,
+                        intrapersonal: 3
+                    },
+                    teamPersonalityTeacher: {
+                        pioneer: 4,
+                        guardian: 6,
+                        driver: 10,
+                        integrator: 2
+                    }   
+                      
                 },
                 {
                     id: 2,
@@ -144,7 +170,32 @@ app.component('root',{
                         guardian: 7,
                         driver: 8,
                         integrator: 6
-                    }
+                    },
+                    learningTypesTeacher: {
+                        visual: 7,
+                        kinaesthetic: 4,
+                        aural: 9,
+                        social: 5,
+                        solitary: 1,
+                        verbal: 6,
+                        logical: 10
+                      },
+                      typesOfIntelligenceTeacher: {
+                        naturalist: 8,
+                        musical: 2,
+                        logical_mathematical: 6,
+                        existential: 3,
+                        interpersonal: 9,
+                        bodily_kinesthetic: 7,
+                        linguistic: 4,
+                        intrapersonal: 5
+                      },
+                      teamPersonalityTeacher: {
+                        pioneer: 10,
+                        guardian: 1,
+                        driver: 3,
+                        integrator: 8
+                      }     
                 },
                 {
                     id: 3,
@@ -209,7 +260,32 @@ app.component('root',{
                         guardian: 8,
                         driver: 7,
                         integrator: 3
-                    }
+                    },
+                    learningTypesTeacher: {
+                        visual: 3,
+                        kinaesthetic: 9,
+                        aural: 2,
+                        social: 5,
+                        solitary: 4,
+                        verbal: 6,
+                        logical: 8
+                    },
+                    typesOfIntelligenceTeacher: {
+                        naturalist: 2,
+                        musical: 4,
+                        logical_mathematical: 9,
+                        existential: 7,
+                        interpersonal: 6,
+                        bodily_kinesthetic: 3,
+                        linguistic: 1,
+                        intrapersonal: 8
+                    },
+                    teamPersonalityTeacher: {
+                        pioneer: 5,
+                        guardian: 6,
+                        driver: 10,
+                        integrator: 3
+                    }                      
                 },
                 {
                     id: 4,
@@ -274,7 +350,32 @@ app.component('root',{
                         guardian: 7, 
                         driver: 8,
                         integrator: 6
-                    }
+                    },       
+                    learningTypesTeacher: {
+                        visual: 2,
+                        kinaesthetic: 10,
+                        aural: 4,
+                        social: 8,
+                        solitary: 7,
+                        verbal: 3,
+                        logical: 5
+                    },
+                    typesOfIntelligenceTeacher: {
+                        naturalist: 9,
+                        musical: 6,
+                        logical_mathematical: 8,
+                        existential: 3,
+                        interpersonal: 7,
+                        bodily_kinesthetic: 5,
+                        linguistic: 1,
+                        intrapersonal: 2
+                    },
+                    teamPersonalityTeacher: {
+                        pioneer: 6,
+                        guardian: 2,
+                        driver: 8,
+                        integrator: 10
+                    }         
                 },
                 {
                     id: 5,
@@ -339,7 +440,32 @@ app.component('root',{
                         guardian: 6, 
                         driver: 9,
                         integrator: 5
-                    }
+                    },
+                    learningTypesTeacher: {
+                        visual: 6,
+                        kinaesthetic: 9,
+                        aural: 4,
+                        social: 8,
+                        solitary: 2,
+                        verbal: 7,
+                        logical: 5
+                    },
+                    typesOfIntelligenceTeacher: {
+                        naturalist: 3,
+                        musical: 8,
+                        logical_mathematical: 6,
+                        existential: 7,
+                        interpersonal: 9,
+                        bodily_kinesthetic: 5,
+                        linguistic: 2,
+                        intrapersonal: 4
+                    },
+                    teamPersonalityTeacher: {
+                        pioneer: 5,
+                        guardian: 7,
+                        driver: 9,
+                        integrator: 3
+                    }                    
                 },
                 {
                     id: 6,
@@ -404,7 +530,32 @@ app.component('root',{
                         guardian: 8, 
                         driver: 8,
                         integrator: 2
-                    }
+                    },
+                    learningTypesTeacher: {
+                        visual: 4,
+                        kinaesthetic: 6,
+                        aural: 8,
+                        social: 3,
+                        solitary: 9,
+                        verbal: 2,
+                        logical: 7
+                      },
+                      typesOfIntelligenceTeacher: {
+                        naturalist: 5,
+                        musical: 9,
+                        logical_mathematical: 7,
+                        existential: 3,
+                        interpersonal: 4,
+                        bodily_kinesthetic: 8,
+                        linguistic: 6,
+                        intrapersonal: 2
+                      },
+                      teamPersonalityTeacher: {
+                        pioneer: 7,
+                        guardian: 1,
+                        driver: 10,
+                        integrator: 5
+                      }                      
                 },
                 {
                     id: 7,
@@ -469,7 +620,32 @@ app.component('root',{
                         guardian: 7, 
                         driver: 9,
                         integrator: 8
-                    }
+                    },
+                    learningTypesTeacher: {
+                        visual: 7,
+                        kinaesthetic: 3,
+                        aural: 6,
+                        social: 8,
+                        solitary: 2,
+                        verbal: 5,
+                        logical: 9
+                      },
+                      typesOfIntelligenceTeacher: {
+                        naturalist: 4,
+                        musical: 2,
+                        logical_mathematical: 8,
+                        existential: 6,
+                        interpersonal: 7,
+                        bodily_kinesthetic: 5,
+                        linguistic: 1,
+                        intrapersonal: 3
+                      },
+                      teamPersonalityTeacher: {
+                        pioneer: 8,
+                        guardian: 4,
+                        driver: 5,
+                        integrator: 7
+                      }                      
                 },
                 {
                     id: 8,
@@ -534,6 +710,31 @@ app.component('root',{
                         guardian: 9, 
                         driver: 8,
                         integrator: 3
+                    },
+                    learningTypesTeacher: {
+                        visual: 4,
+                        kinaesthetic: 9,
+                        aural: 6,
+                        social: 8,
+                        solitary: 2,
+                        verbal: 5,
+                        logical: 10
+                    },
+                    typesOfIntelligenceTeacher: {
+                        naturalist: 7,
+                        musical: 3,
+                        logical_mathematical: 9,
+                        existential: 6,
+                        interpersonal: 5,
+                        bodily_kinesthetic: 8,
+                        linguistic: 2,
+                        intrapersonal: 4
+                    },
+                    teamPersonalityTeacher: {
+                        pioneer: 6,
+                        guardian: 4,
+                        driver: 7,
+                        integrator: 1
                     }
                 },
                 {
@@ -595,6 +796,31 @@ app.component('root',{
                         guardian: 9,
                         driver: 4,
                         integrator: 7
+                    },
+                    learningTypesTeacher: {
+                        visual: 5,
+                        kinaesthetic: 4,
+                        aural: 9,
+                        social: 6,
+                        solitary: 2,
+                        verbal: 8,
+                        logical: 3
+                    },
+                    typesOfIntelligenceTeacher: {
+                        naturalist: 7,
+                        musical: 1,
+                        logical_mathematical: 6,
+                        existential: 9,
+                        interpersonal: 5,
+                        bodily_kinesthetic: 3,
+                        linguistic: 2,
+                        intrapersonal: 4
+                    },
+                    teamPersonalityTeacher: {
+                        pioneer: 8,
+                        guardian: 4,
+                        driver: 1,
+                        integrator: 10
                     }
                 },
                 {
@@ -656,7 +882,32 @@ app.component('root',{
                         guardian: 6,
                         driver: 4,
                         integrator: 9
-                    }       
+                    },
+                    learningTypesTeacher: {
+                        visual: 9,
+                        kinaesthetic: 3,
+                        aural: 7,
+                        social: 1,
+                        solitary: 6,
+                        verbal: 8,
+                        logical: 4
+                    },
+                    typesOfIntelligenceTeacher: {
+                        naturalist: 5,
+                        musical: 8,
+                        logical_mathematical: 6,
+                        existential: 4,
+                        interpersonal: 9,
+                        bodily_kinesthetic: 2,
+                        linguistic: 1,
+                        intrapersonal: 3
+                    },
+                    teamPersonalityTeacher: {
+                        pioneer: 7,
+                        guardian: 3,
+                        driver: 2,
+                        integrator: 10
+                    }      
                 },
                 {
                     id: 11,
@@ -717,7 +968,32 @@ app.component('root',{
                         guardian: 7,
                         driver: 6,
                         integrator: 5
-                    }
+                    },
+                    learningTypesTeacher: {
+                        visual: 7,
+                        kinaesthetic: 9,
+                        aural: 5,
+                        social: 6,
+                        solitary: 8,
+                        verbal: 2,
+                        logical: 4
+                    },
+                    typesOfIntelligenceTeacher: {
+                        naturalist: 3,
+                        musical: 7,
+                        logical_mathematical: 9,
+                        existential: 5,
+                        interpersonal: 6,
+                        bodily_kinesthetic: 8,
+                        linguistic: 2,
+                        intrapersonal: 4
+                    },
+                    teamPersonalityTeacher: {
+                        pioneer: 6,
+                        guardian: 8,
+                        driver: 4,
+                        integrator: 5
+                    }    
                 },
                 {
                     id: 12,
@@ -778,6 +1054,31 @@ app.component('root',{
                         guardian: 7,
                         driver: 6,
                         integrator: 5
+                    },
+                    learningTypesTeacher: {
+                        visual: 6,
+                        kinaesthetic: 5,
+                        aural: 3,
+                        social: 5,
+                        solitary: 3,
+                        verbal: 9,
+                        logical: 4
+                    },
+                    typesOfIntelligenceTeacher: {
+                        naturalist: 2,
+                        musical: 5,
+                        logical_mathematical: 9,
+                        existential: 3,
+                        interpersonal: 9,
+                        bodily_kinesthetic: 7,
+                        linguistic: 3,
+                        intrapersonal: 8
+                    },
+                    teamPersonalityTeacher: {
+                        pioneer: 3,
+                        guardian: 5,
+                        driver: 2,
+                        integrator: 1
                     }
                 },
                 {
@@ -839,6 +1140,31 @@ app.component('root',{
                         guardian: 7,
                         driver: 6,
                         integrator: 8
+                    },
+                    learningTypesTeacher: {
+                        visual: 4,
+                        kinaesthetic: 6,
+                        aural: 5,
+                        social: 4,
+                        solitary: 3,
+                        verbal: 2,
+                        logical: 8
+                    },
+                    typesOfIntelligenceTeacher: {
+                        naturalist: 3,
+                        musical: 9,
+                        logical_mathematical: 4,
+                        existential: 3,
+                        interpersonal: 8,
+                        bodily_kinesthetic: 3,
+                        linguistic: 7,
+                        intrapersonal: 3
+                    },
+                    teamPersonalityTeacher: {
+                        pioneer: 4,
+                        guardian: 7,
+                        driver: 9,
+                        integrator: 1
                     }
                 },
                 {
@@ -900,6 +1226,31 @@ app.component('root',{
                         guardian: 8,
                         driver: 5,
                         integrator: 6
+                    },
+                    learningTypesTeacher: {
+                        visual: 4,
+                        kinaesthetic: 3,
+                        aural: 7,
+                        social: 8,
+                        solitary: 5,
+                        verbal: 6,
+                        logical: 1
+                    },
+                    typesOfIntelligenceTeacher: {
+                        naturalist: 4,
+                        musical: 2,
+                        logical_mathematical: 3,
+                        existential: 9,
+                        interpersonal: 2,
+                        bodily_kinesthetic: 6,
+                        linguistic: 4,
+                        intrapersonal: 2
+                    },
+                    teamPersonalityTeacher: {
+                        pioneer: 5,
+                        guardian: 3,
+                        driver: 8,
+                        integrator: 2
                     }
                 },                
                 {
@@ -961,6 +1312,31 @@ app.component('root',{
                         guardian: 6,
                         driver: 5,
                         integrator: 8
+                    },
+                    learningTypesTeacher: {
+                        visual: 4,
+                        kinaesthetic: 8,
+                        aural: 6,
+                        social: 8,
+                        solitary: 2,
+                        verbal: 1,
+                        logical: 7
+                    },
+                    typesOfIntelligenceTeacher: {
+                        naturalist: 3,
+                        musical: 4,
+                        logical_mathematical: 8,
+                        existential: 4,
+                        interpersonal: 9,
+                        bodily_kinesthetic: 5,
+                        linguistic: 1,
+                        intrapersonal: 3
+                    },
+                    teamPersonalityTeacher: {
+                        pioneer: 5,
+                        guardian: 3,
+                        driver: 3,
+                        integrator: 5
                     }
                 },
                 {
@@ -998,32 +1374,56 @@ app.component('root',{
                         driver: 25,
                         integrator: 69
                     }, 
-                        learningTypesStudent: {
-                          visual: 6,
-                          kinaesthetic: 4,
-                          aural: 9,
-                          social: 2,
-                          solitary: 7,
-                          verbal: 8,
-                          logical: 1
-                        },
-                        typesOfIntelligenceStudent: {
-                          naturalist: 3,
-                          musical: 6,
-                          logical_mathematical: 4,
-                          existential: 9,
-                          interpersonal: 5,
-                          bodily_kinesthetic: 7,
-                          linguistic: 2,
-                          intrapersonal: 8
-                        },
-                        teamPersonalityStudent: {
-                          pioneer: 7,
-                          guardian: 5,
-                          driver: 8,
-                          integrator: 2
-                        }
-                      
+                    learningTypesStudent: {
+                        visual: 6,
+                        kinaesthetic: 4,
+                        aural: 9,
+                        social: 2,
+                        solitary: 7,
+                        verbal: 8,
+                        logical: 1
+                    },
+                    typesOfIntelligenceStudent: {
+                        naturalist: 3,
+                        musical: 6,
+                        logical_mathematical: 4,
+                        existential: 9,
+                        interpersonal: 5,
+                        bodily_kinesthetic: 7,
+                        linguistic: 2,
+                        intrapersonal: 8
+                    },
+                    teamPersonalityStudent: {
+                        pioneer: 7,
+                        guardian: 5,
+                        driver: 8,
+                        integrator: 2
+                    },
+                    learningTypesTeacher: {
+                        visual: 5,
+                        kinaesthetic: 4,
+                        aural: 3,
+                        social: 7,
+                        solitary: 1,
+                        verbal: 8,
+                        logical: 2
+                    },
+                    typesOfIntelligenceTeacher: {
+                        naturalist: 2,
+                        musical: 8,
+                        logical_mathematical: 7,
+                        existential: 9,
+                        interpersonal: 2,
+                        bodily_kinesthetic: 6,
+                        linguistic: 1,
+                        intrapersonal: 9
+                    },
+                    teamPersonalityTeacher: {
+                        pioneer: 5,
+                        guardian: 8,
+                        driver: 3,
+                        integrator: 6
+                    }    
                 },
                 {
                     id: 17,
@@ -1068,8 +1468,8 @@ app.component('root',{
                         solitary: 4,
                         verbal: 6,
                         logical: 2
-                      },
-                      typesOfIntelligenceStudent: {
+                    },
+                    typesOfIntelligenceStudent: {
                         naturalist: 6,
                         musical: 4,
                         logical_mathematical: 7,
@@ -1078,13 +1478,38 @@ app.component('root',{
                         bodily_kinesthetic: 5,
                         linguistic: 8,
                         intrapersonal: 3
-                      },
-                      teamPersonalityStudent: {
+                    },
+                    teamPersonalityStudent: {
                         pioneer: 4,
                         guardian: 8,
                         driver: 6,
                         integrator: 7
-                      }
+                    },
+                    learningTypesTeacher: {
+                        visual: 7,
+                        kinaesthetic: 3,
+                        aural: 5,
+                        social: 8,
+                        solitary: 5,
+                        verbal: 3,
+                        logical: 5
+                    },
+                    typesOfIntelligenceTeacher: {
+                        naturalist: 3,
+                        musical: 8,
+                        logical_mathematical: 4,
+                        existential: 7,
+                        interpersonal: 4,
+                        bodily_kinesthetic: 8,
+                        linguistic: 6,
+                        intrapersonal: 3
+                    },
+                    teamPersonalityTeacher: {
+                        pioneer: 4,
+                        guardian: 2,
+                        driver: 6,
+                        integrator: 1
+                    }
                 },
                 {
                     id: 18,
@@ -1120,7 +1545,8 @@ app.component('root',{
                         guardian: 80, 
                         driver: 75,
                         integrator: 81
-                    }, learningTypesStudent: {
+                    }, 
+                    learningTypesStudent: {
                         visual: 4,
                         kinaesthetic: 6,
                         aural: 8,
@@ -1128,8 +1554,8 @@ app.component('root',{
                         solitary: 9,
                         verbal: 2,
                         logical: 7
-                      },
-                      typesOfIntelligenceStudent: {
+                        },
+                        typesOfIntelligenceStudent: {
                         naturalist: 5,
                         musical: 9,
                         logical_mathematical: 3,
@@ -1138,13 +1564,38 @@ app.component('root',{
                         bodily_kinesthetic: 8,
                         linguistic: 6,
                         intrapersonal: 2
-                      },
-                      teamPersonalityStudent: {
+                    },
+                    teamPersonalityStudent: {
                         pioneer: 8,
                         guardian: 7,
                         driver: 5,
                         integrator: 1
-                      }
+                    },
+                    learningTypesTeacher: {
+                        visual: 5,
+                        kinaesthetic: 5,
+                        aural: 4,
+                        social: 3,
+                        solitary: 9,
+                        verbal: 6,
+                        logical: 2
+                    },
+                    typesOfIntelligenceTeacher: {
+                        naturalist: 8,
+                        musical: 5,
+                        logical_mathematical: 3,
+                        existential: 7,
+                        interpersonal: 4,
+                        bodily_kinesthetic: 6,
+                        linguistic: 2,
+                        intrapersonal: 6
+                    },
+                    teamPersonalityTeacher: {
+                        pioneer: 5,
+                        guardian: 3,
+                        driver: 8,
+                        integrator: 4
+                    }
                 },
                 {
                     id: 19,
@@ -1189,8 +1640,8 @@ app.component('root',{
                         solitary: 5,
                         verbal: 1,
                         logical: 8
-                      },
-                      typesOfIntelligenceStudent: {
+                    },
+                    typesOfIntelligenceStudent: {
                         naturalist: 7,
                         musical: 3,
                         logical_mathematical: 5,
@@ -1199,13 +1650,38 @@ app.component('root',{
                         bodily_kinesthetic: 4,
                         linguistic: 9,
                         intrapersonal: 8
-                      },
-                      teamPersonalityStudent: {
+                    },
+                    teamPersonalityStudent: {
                         pioneer: 6,
                         guardian: 8,
                         driver: 3,
                         integrator: 4
-                      }
+                    },
+                    learningTypesTeacher: {
+                        visual: 7,
+                        kinaesthetic: 3,
+                        aural: 6,
+                        social: 9,
+                        solitary: 1,
+                        verbal: 4,
+                        logical: 2
+                    },
+                    typesOfIntelligenceTeacher: {
+                        naturalist: 4,
+                        musical: 3,
+                        logical_mathematical: 7,
+                        existential: 7,
+                        interpersonal: 4,
+                        bodily_kinesthetic: 3,
+                        linguistic: 1,
+                        intrapersonal: 3
+                    },
+                    teamPersonalityTeacher: {
+                        pioneer: 5,
+                        guardian: 3,
+                        driver: 8,
+                        integrator: 3
+                    }
                 },
                 {
                     id: 20,
@@ -1250,8 +1726,8 @@ app.component('root',{
                         solitary: 5,
                         verbal: 1,
                         logical: 8
-                      },
-                      typesOfIntelligenceStudent: {
+                    },
+                    typesOfIntelligenceStudent: {
                         naturalist: 7,
                         musical: 3,
                         logical_mathematical: 5,
@@ -1260,13 +1736,38 @@ app.component('root',{
                         bodily_kinesthetic: 4,
                         linguistic: 9,
                         intrapersonal: 8
-                      },
-                      teamPersonalityStudent: {
+                    },
+                    teamPersonalityStudent: {
                         pioneer: 6,
                         guardian: 8,
                         driver: 3,
                         integrator: 4
-                      }
+                    },
+                    learningTypesTeacher: {
+                        visual: 5,
+                        kinaesthetic: 7,
+                        aural: 3,
+                        social: 9,
+                        solitary: 2,
+                        verbal: 4,
+                        logical: 6
+                    },
+                    typesOfIntelligenceTeacher: {
+                        naturalist: 4,
+                        musical: 3,
+                        logical_mathematical: 7,
+                        existential: 3,
+                        interpersonal: 3,
+                        bodily_kinesthetic: 7,
+                        linguistic: 8,
+                        intrapersonal: 1
+                    },
+                    teamPersonalityTeacher: {
+                        pioneer: 3,
+                        guardian: 9,
+                        driver: 3,
+                        integrator: 7
+                    }
                 }
                 
                         
