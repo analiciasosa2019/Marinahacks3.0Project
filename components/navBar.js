@@ -1,8 +1,8 @@
-app.component('instructorevaluation',{
+app.component('navBar',{
     template: 
     /*html*/
     `
-    <div> </div> 
+  
 
     {{test}}
     
@@ -17,9 +17,6 @@ app.component('instructorevaluation',{
         }
     }, 
     method:{
-        methodname(){
-
-        }
     }
 
 })

@@ -1,4 +1,4 @@
-app.component('instructorevaluation',{
+app.component('testTeam.js',{
     template: 
     /*html*/
     `
@@ -17,9 +17,6 @@ app.component('instructorevaluation',{
         }
     }, 
     method:{
-        methodname(){
-
-        }
     }
 
 })
