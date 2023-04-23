@@ -9,7 +9,7 @@ app.component('summaryPage',{
                 <spider-chart></spider-chart>
             </div>
             <div class = "lineGraphArea">
-                <barChart></barChart>
+                <div class = "barChartWrapper"><barChart></barChart></div>
             </div>
         </div>
         <div class = "studentListArea">
@@ -32,7 +32,7 @@ app.component('summaryPage',{
     method:{
         emitStudent(){
             obj = {
-                
+
             }
             window.mitt.on("studentData",obj)
         }
