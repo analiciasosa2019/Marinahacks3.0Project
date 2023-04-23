@@ -73,6 +73,7 @@ app.component('barChart', {
               ]
             },
             options: {
+              maintainAspectRatio: false,
               scales: {
                 y: {
                   suggestedMin: 50, // Specify the minimum value for the axes
