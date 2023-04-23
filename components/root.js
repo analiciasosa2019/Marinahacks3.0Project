@@ -58,6 +58,31 @@ app.component('root',{
                         guardian: 84, 
                         driver: 93,
                         integrator: 58
+                    },
+                    learningTypesStudent: {
+                        visual: 6,
+                        kinaesthetic: 8,
+                        aural: 5,
+                        social: 9,
+                        solitary: 7,
+                        verbal: 3,
+                        logical: 6
+                    },
+                    typesOfIntelligenceStudent: {
+                        naturalist: 5,
+                        musical: 7,
+                        logical_mathematical: 4,
+                        existential: 9,
+                        interpersonal: 5,
+                        bodily_kinesthetic: 8,
+                        linguistic: 2,
+                        intrapersonal: 10
+                    },
+                    teamPersonalityStudent: {
+                        pioneer: 7,
+                        guardian: 9,
+                        driver: 8,
+                        integrator: 4
                     }
                 },
                 {
@@ -94,6 +119,31 @@ app.component('root',{
                         guardian: 77,
                         driver: 88,
                         integrator: 51
+                    }, 
+                    learningTypesStudent: {
+                        visual: 5,
+                        kinaesthetic: 6,
+                        aural: 7,
+                        social: 4,
+                        solitary: 8,
+                        verbal: 3,
+                        logical: 9
+                    },
+                    typesOfIntelligenceStudent: {
+                        naturalist: 7,
+                        musical: 8,
+                        logical_mathematical: 3,
+                        existential: 5,
+                        interpersonal: 6,
+                        bodily_kinesthetic: 9,
+                        linguistic: 2,
+                        intrapersonal: 4
+                    },
+                    teamPersonalityStudent: {
+                        pioneer: 9,
+                        guardian: 7,
+                        driver: 8,
+                        integrator: 6
                     }
                 },
                 {
@@ -107,29 +157,61 @@ app.component('root',{
                         history: {2022: 87, 2021: 91, 2020: 79}
                     },
                     learningTypes: {
-                        visual: 50,
-                        kinaesthetic: 72,
-                        aural: 52,
-                        social: 85,
-                        solitary: 60,
-                        verbal: 37,
-                        logical: 63
+                        visual: 5,
+                        kinaesthetic: 7,
+                        aural: 5,
+                        social: 8,
+                        solitary: 6,
+                        verbal: 3,
+                        logical: 6
                     },
                     typesOfIntelligence: {
-                        naturalist: 48,
-                        musical: 67,
-                        logical_mathematical: 42,
-                        existential: 88,
-                        interpersonal: 51,
-                        bodily_kinesthetic: 79,
-                        linguistic: 76,
-                        intrapersonal: 90
+                        naturalist: 4,
+                        musical: 6,
+                        logical_mathematical: 4,
+                        existential: 8,
+                        interpersonal: 5,
+                        bodily_kinesthetic: 7,
+                        linguistic: 3,
+                        intrapersonal: 9
                     },
                     teamPersonality: {
+<<<<<<< HEAD
                         pioneer: 60,
                         guardian: 80,
                         driver: 87,
                         integrator: 53
+                    },
+                    learningTypesStudent: {
+                        visual: 7,
+                        kinaesthetic: 6,
+                        aural: 8,
+                        social: 5,
+                        solitary: 4,
+                        verbal: 9,
+                        logical: 3
+                    },
+                    typesOfIntelligenceStudent: {
+                        naturalist: 6,
+                        musical: 5,
+                        logical_mathematical: 9,
+                        existential: 4,
+                        interpersonal: 7,
+                        bodily_kinesthetic: 8,
+                        linguistic: 2,
+                        intrapersonal: 3
+                    },
+                    teamPersonalityStudent: {
+                        pioneer: 8,
+                        guardian: 6,
+                        driver: 9,
+                        integrator: 7
+=======
+                        pioneer: 6,
+                        guardian: 8,
+                        driver: 7,
+                        integrator: 3
+>>>>>>> origin/megan-edit
                     }
                 },
                 {
@@ -143,29 +225,61 @@ app.component('root',{
                         history: {2022: 91, 2021: 86, 2020: 80} 
                     },
                     learningTypes: {
-                        visual: 79,
-                        kinaesthetic: 58,
-                        aural: 67,
-                        social: 92,
-                        solitary: 47,
-                        verbal: 61,
-                        logical: 83
+                        visual: 7,
+                        kinaesthetic: 5,
+                        aural: 6,
+                        social: 2,
+                        solitary: 7,
+                        verbal: 1,
+                        logical: 8
                     },
                     typesOfIntelligence: {
-                        naturalist: 72,
-                        musical: 89,
-                        logical_mathematical: 68,
-                        existential: 94,
-                        interpersonal: 57,
-                        bodily_kinesthetic: 81,
-                        linguistic: 77,
-                        intrapersonal: 96
+                        naturalist: 7,
+                        musical: 9,
+                        logical_mathematical: 6,
+                        existential: 4,
+                        interpersonal: 5,
+                        bodily_kinesthetic: 1,
+                        linguistic: 7,
+                        intrapersonal: 9
                     },
                     teamPersonality: {
+<<<<<<< HEAD
                         pioneer: 45, 
                         guardian: 72, 
                         driver: 84,
                         integrator: 63
+                    },
+                    learningTypesStudent: {
+                        visual: 8,
+                        kinaesthetic: 5,
+                        aural: 6,
+                        social: 7,
+                        solitary: 3,
+                        verbal: 4,
+                        logical: 9
+                    },
+                    typesOfIntelligenceStudent: {
+                        naturalist: 6,
+                        musical: 7,
+                        logical_mathematical: 4,
+                        existential: 8,
+                        interpersonal: 5,
+                        bodily_kinesthetic: 9,
+                        linguistic: 2,
+                        intrapersonal: 3
+                    },
+                    teamPersonalityStudent: {
+                        pioneer: 7,
+                        guardian: 9,
+                        driver: 6,
+                        integrator: 8
+=======
+                        pioneer: 4, 
+                        guardian: 7, 
+                        driver: 8,
+                        integrator: 6
+>>>>>>> origin/megan-edit
                     }
                 },
                 {
@@ -179,29 +293,61 @@ app.component('root',{
                         history: {2022: 59, 2021: 42, 2020: 66} 
                     },
                     learningTypes: {
-                        visual: 63,
-                        kinaesthetic: 68,
-                        aural: 52,
-                        social: 87,
-                        solitary: 59,
-                        verbal: 69,
-                        logical: 92
+                        visual: 6,
+                        kinaesthetic: 8,
+                        aural: 2,
+                        social: 8,
+                        solitary: 9,
+                        verbal: 6,
+                        logical: 9
                     },
                     typesOfIntelligence: {
-                        naturalist: 55,
-                        musical: 81,
-                        logical_mathematical: 13,
-                        existential: 92,
-                        interpersonal: 67,
-                        bodily_kinesthetic: 79,
-                        linguistic: 28,
-                        intrapersonal: 78
+                        naturalist: 5,
+                        musical: 8,
+                        logical_mathematical: 3,
+                        existential: 2,
+                        interpersonal: 7,
+                        bodily_kinesthetic: 7,
+                        linguistic: 8,
+                        intrapersonal: 8
                     },
                     teamPersonality: {
+<<<<<<< HEAD
                         pioneer: 72, 
                         guardian: 62, 
                         driver: 79,
                         integrator: 55
+                    },
+                    learningTypesStudent: {
+                        visual: 6,
+                        kinaesthetic: 5,
+                        aural: 7,
+                        social: 8,
+                        solitary: 3,
+                        verbal: 9,
+                        logical: 4
+                    },
+                    typesOfIntelligenceStudent: {
+                        naturalist: 8,
+                        musical: 7,
+                        logical_mathematical: 5,
+                        existential: 9,
+                        interpersonal: 6,
+                        bodily_kinesthetic: 3,
+                        linguistic: 2,
+                        intrapersonal: 4
+                    },
+                    teamPersonalityStudent: {
+                        pioneer: 7,
+                        guardian: 9,
+                        driver: 6,
+                        integrator: 2
+=======
+                        pioneer: 2, 
+                        guardian: 6, 
+                        driver: 9,
+                        integrator: 5
+>>>>>>> origin/megan-edit
                     }
                 },
                 {
@@ -215,29 +361,61 @@ app.component('root',{
                         history: {2022: 87, 2021: 90, 2020: 88} 
                     },
                     learningTypes: {
-                        visual: 67,
-                        kinaesthetic: 24,
-                        aural: 56,
-                        social: 82,
-                        solitary: 62,
-                        verbal: 71,
-                        logical: 27
+                        visual: 6,
+                        kinaesthetic: 4,
+                        aural: 6,
+                        social: 2,
+                        solitary: 6,
+                        verbal: 7,
+                        logical: 2
                     },
                     typesOfIntelligence: {
-                        naturalist: 49,
-                        musical: 87,
-                        logical_mathematical: 35,
-                        existential: 90,
-                        interpersonal: 72,
-                        bodily_kinesthetic: 83,
-                        linguistic: 40,
-                        intrapersonal: 91
+                        naturalist: 4,
+                        musical: 8,
+                        logical_mathematical: 3,
+                        existential: 1,
+                        interpersonal: 7,
+                        bodily_kinesthetic: 3,
+                        linguistic: 4,
+                        intrapersonal: 9
                     },
                     teamPersonality: {
+<<<<<<< HEAD
                         pioneer: 68, 
                         guardian: 58, 
                         driver: 80,
                         integrator: 72
+                    },
+                    learningTypesStudent: {
+                        visual: 4,
+                        kinaesthetic: 6,
+                        aural: 7,
+                        social: 5,
+                        solitary: 8,
+                        verbal: 5,
+                        logical: 6
+                    },
+                    typesOfIntelligenceStudent: {
+                        naturalist: 7,
+                        musical: 6,
+                        logical_mathematical: 5,
+                        existential: 9,
+                        interpersonal: 6,
+                        bodily_kinesthetic: 4,
+                        linguistic: 7,
+                        intrapersonal: 5
+                    },
+                    teamPersonalityStudent: {
+                        pioneer: 8,
+                        guardian: 5,
+                        driver: 6,
+                        integrator: 9
+=======
+                        pioneer: 6, 
+                        guardian: 8, 
+                        driver: 8,
+                        integrator: 2
+>>>>>>> origin/megan-edit
                     }
                 },
                 {
@@ -251,29 +429,60 @@ app.component('root',{
                         history: {2022: 91, 2021: 90, 2020: 88} 
                     },
                     learningTypes: {
-                        visual: 66,
-                        kinaesthetic: 46,
-                        aural: 54,
-                        social: 83,
-                        solitary: 61,
-                        verbal: 70,
-                        logical: 74
+                        visual: 6,
+                        kinaesthetic: 4,
+                        aural: 5,
+                        social: 3,
+                        solitary: 6,
+                        verbal: 7,
+                        logical: 7
                     },
                     typesOfIntelligence: {
-                        naturalist: 58,
-                        musical: 83,
-                        logical_mathematical: 72,
-                        existential: 89,
-                        interpersonal: 71,
-                        bodily_kinesthetic: 61,
-                        linguistic: 43,
-                        intrapersonal: 50
+                        naturalist: 5,
+                        musical: 3,
+                        logical_mathematical: 2,
+                        existential: 8,
+                        interpersonal: 1,
+                        bodily_kinesthetic: 6,
+                        linguistic: 3,
+                        intrapersonal: 3
                     },
                     teamPersonality: {
+<<<<<<< HEAD
                         pioneer: 75, 
                         guardian: 72, 
                         driver: 69,
                         integrator: 80
+                    },
+                    learningTypesStudent: {
+                        visual: 7,
+                        kinaesthetic: 4,
+                        aural: 6,
+                        social: 9,
+                        solitary: 5,
+                        verbal: 6,
+                        logical: 4
+                    },
+                    typesOfIntelligenceStudent: {
+                        naturalist: 6,
+                        musical: 8,
+                        logical_mathematical: 7,
+                        existential: 4,
+                        interpersonal: 9,
+                        bodily_kinesthetic: 3,
+                        linguistic: 5,
+                        intrapersonal: 6
+                    },
+                    teamPersonalityStudent: {
+                        pioneer: 5,
+                        guardian: 7,
+                        driver: 6,
+=======
+                        pioneer: 5, 
+                        guardian: 7, 
+                        driver: 9,
+>>>>>>> origin/megan-edit
+                        integrator: 8
                     }
                 },
                 {
@@ -287,29 +496,61 @@ app.component('root',{
                         history: {2022: 89, 2021: 42, 2020: 57} 
                     },
                     learningTypes: {
-                        visual: 68,
-                        kinaesthetic: 42,
-                        aural: 58,
-                        social: 52,
-                        solitary: 23,
-                        verbal: 72,
-                        logical: 75
+                        visual: 8,
+                        kinaesthetic: 2,
+                        aural: 8,
+                        social: 5,
+                        solitary: 2,
+                        verbal: 2,
+                        logical: 7
                     },
                     typesOfIntelligence: {
-                        naturalist: 61,
-                        musical: 46,
-                        logical_mathematical: 79,
-                        existential: 32,
-                        interpersonal: 73,
-                        bodily_kinesthetic: 84,
-                        linguistic: 86,
-                        intrapersonal: 90
+                        naturalist: 1,
+                        musical: 4,
+                        logical_mathematical: 9,
+                        existential: 3,
+                        interpersonal: 7,
+                        bodily_kinesthetic: 4,
+                        linguistic: 8,
+                        intrapersonal: 9
                     },
                     teamPersonality: {
+<<<<<<< HEAD
                         pioneer: 72, 
                         guardian: 59, 
                         driver: 83,
                         integrator: 37
+                    }, 
+                    learningTypesStudent: {
+                        visual: 9,
+                        kinaesthetic: 5,
+                        aural: 7,
+                        social: 3,
+                        solitary: 6,
+                        verbal: 8,
+                        logical: 4
+                    },
+                    typesOfIntelligenceStudent: {
+                        naturalist: 5,
+                        musical: 4,
+                        logical_mathematical: 8,
+                        existential: 6,
+                        interpersonal: 7,
+                        bodily_kinesthetic: 9,
+                        linguistic: 5,
+                        intrapersonal: 4
+                    },
+                    teamPersonalityStudent: {
+                        pioneer: 7,
+                        guardian: 5,
+                        driver: 8,
+                        integrator: 6
+=======
+                        pioneer: 2, 
+                        guardian: 9, 
+                        driver: 8,
+                        integrator: 3
+>>>>>>> origin/megan-edit
                     }
                 },
                 {
@@ -323,29 +564,61 @@ app.component('root',{
                         history: {2022: 50, 2021: 72, 2020: 89} 
                     },
                     learningTypes: {
-                        visual: 62,
-                        kinaesthetic: 70,
-                        aural: 66,
-                        social: 81,
-                        solitary: 68,
-                        verbal: 75,
-                        logical: 80
+                        visual: 2,
+                        kinaesthetic: 7,
+                        aural: 6,
+                        social: 1,
+                        solitary: 6,
+                        verbal: 7,
+                        logical: 8
                     },
                     typesOfIntelligence: {
-                        naturalist: 63,
-                        musical: 87,
-                        logical_mathematical: 51,
-                        existential: 90,
-                        interpersonal: 72,
-                        bodily_kinesthetic: 53,
-                        linguistic: 38,
-                        intrapersonal: 92
+                        naturalist: 6,
+                        musical: 8,
+                        logical_mathematical: 5,
+                        existential: 9,
+                        interpersonal: 7,
+                        bodily_kinesthetic: 5,
+                        linguistic: 3,
+                        intrapersonal: 9
                     },
                     teamPersonality: {
+<<<<<<< HEAD
                         pioneer: 77, 
                         guardian: 63, 
                         driver: 79,
                         integrator: 28
+                    }, 
+                    learningTypesStudent: {
+                        visual: 5,
+                        kinaesthetic: 8,
+                        aural: 6,
+                        social: 7,
+                        solitary: 4,
+                        verbal: 5,
+                        logical: 7
+                    },
+                    typesOfIntelligenceStudent: {
+                        naturalist: 7,
+                        musical: 5,
+                        logical_mathematical: 9,
+                        existential: 6,
+                        interpersonal: 3,
+                        bodily_kinesthetic: 8,
+                        linguistic: 6,
+                        intrapersonal: 4
+                    },
+                    teamPersonalityStudent: {
+                        pioneer: 5,
+                        guardian: 9,
+                        driver: 4,
+                        integrator: 7
+=======
+                        pioneer: 7, 
+                        guardian: 6, 
+                        driver: 9,
+                        integrator: 2
+>>>>>>> origin/megan-edit
                     }
                 },
                 {
@@ -359,30 +632,63 @@ app.component('root',{
                         history: {2022: 89, 2021: 90, 2020: 88} 
                     },
                     learningTypes: {
-                        visual: 70,
-                        kinaesthetic: 64,
-                        aural: 30,
-                        social: 36,
-                        solitary: 68,
-                        verbal: 62,
-                        logical: 78
+                        visual: 7,
+                        kinaesthetic: 6,
+                        aural: 3,
+                        social: 3,
+                        solitary: 6,
+                        verbal: 6,
+                        logical: 7
                     },
                     typesOfIntelligence: {
-                        naturalist: 66,
-                        musical: 82,
-                        logical_mathematical: 75,
-                        existential: 88,
-                        interpersonal: 70,
-                        bodily_kinesthetic: 78,
-                        linguistic: 84,
-                        intrapersonal: 90
+                        naturalist: 6,
+                        musical: 8,
+                        logical_mathematical: 7,
+                        existential: 8,
+                        interpersonal: 7,
+                        bodily_kinesthetic: 7,
+                        linguistic: 8,
+                        intrapersonal: 9
                     },
                     teamPersonality: {
+<<<<<<< HEAD
                         pioneer: 73, 
                         guardian: 76, 
                         driver: 81,
                         integrator: 67
+                    }, 
+                    learningTypesStudent: {
+                        visual: 6,
+                        kinaesthetic: 7,
+                        aural: 4,
+                        social: 8,
+                        solitary: 5,
+                        verbal: 6,
+                        logical: 9
+                    },
+                    typesOfIntelligenceStudent: {
+                        naturalist: 8,
+                        musical: 6,
+                        logical_mathematical: 5,
+                        existential: 9,
+                        interpersonal: 3,
+                        bodily_kinesthetic: 7,
+                        linguistic: 4,
+                        intrapersonal: 5
+                    },
+                    teamPersonalityStudent: {
+                        pioneer: 7,
+                        guardian: 6,
+                        driver: 4,
+                        integrator: 9
+                    }       
+=======
+                        pioneer: 7, 
+                        guardian: 7, 
+                        driver: 8,
+                        integrator: 3
                     }
+>>>>>>> origin/megan-edit
                 },
                 {
                     id: 11,
@@ -395,29 +701,61 @@ app.component('root',{
                         history: {2022: 80, 2021: 88, 2020: 89} 
                     },
                     learningTypes: {
-                        visual: 65,
-                        kinaesthetic: 40,
-                        aural: 62,
-                        social: 78,
-                        solitary: 48,
-                        verbal: 75,
-                        logical: 77
+                        visual: 6,
+                        kinaesthetic: 4,
+                        aural: 2,
+                        social: 7,
+                        solitary: 8,
+                        verbal: 7,
+                        logical: 7
                     },
                     typesOfIntelligence: {
-                        naturalist: 62,
-                        musical: 84,
+                        naturalist: 2,
+                        musical: 8,
                         logical_mathematical: 71,
-                        existential: 90,
-                        interpersonal: 73,
-                        bodily_kinesthetic: 31,
-                        linguistic: 86,
-                        intrapersonal: 91
+                        existential: 9,
+                        interpersonal: 7,
+                        bodily_kinesthetic: 3,
+                        linguistic: 8,
+                        intrapersonal: 9
                     },
                     teamPersonality: {
+<<<<<<< HEAD
                         pioneer: 75, 
                         guardian: 72, 
                         driver: 81,
                         integrator: 69
+                    }, 
+                    learningTypesStudent: {
+                        visual: 4,
+                        kinaesthetic: 8,
+                        aural: 6,
+                        social: 7,
+                        solitary: 5,
+                        verbal: 4,
+                        logical: 6
+                    },
+                    typesOfIntelligenceStudent: {
+                        naturalist: 6,
+                        musical: 7,
+                        logical_mathematical: 5,
+                        existential: 6,
+                        interpersonal: 4,
+                        bodily_kinesthetic: 8,
+                        linguistic: 4,
+                        intrapersonal: 9
+                    },
+                    teamPersonalityStudent: {
+                        pioneer: 8,
+                        guardian: 7,
+                        driver: 6,
+                        integrator: 5
+=======
+                        pioneer: 7, 
+                        guardian: 2, 
+                        driver: 1,
+                        integrator: 6
+>>>>>>> origin/megan-edit
                     }
                 },
                 {
@@ -431,29 +769,61 @@ app.component('root',{
                         history: {2022: 91, 2021: 80, 2020: 88} 
                     },
                     learningTypes: {
-                        visual: 43,
-                        kinaesthetic: 66,
-                        aural: 64,
-                        social: 69,
-                        solitary: 71,
-                        verbal: 77,
-                        logical: 40
+                        visual: 4,
+                        kinaesthetic: 6,
+                        aural: 4,
+                        social: 9,
+                        solitary: 7,
+                        verbal: 7,
+                        logical: 4
                     },
                     typesOfIntelligence: {
-                        naturalist: 65,
-                        musical: 85,
-                        logical_mathematical: 78,
-                        existential: 49,
-                        interpersonal: 70,
-                        bodily_kinesthetic: 80,
-                        linguistic: 87,
-                        intrapersonal: 91
+                        naturalist: 6,
+                        musical: 5,
+                        logical_mathematical: 7,
+                        existential: 9,
+                        interpersonal: 7,
+                        bodily_kinesthetic: 8,
+                        linguistic: 7,
+                        intrapersonal: 1
                     },
                     teamPersonality: {
+<<<<<<< HEAD
                         pioneer: 70, 
                         guardian: 71, 
                         driver: 23,
                         integrator: 64
+                    }, 
+                    learningTypesStudent: {
+                        visual: 4,
+                        kinaesthetic: 8,
+                        aural: 6,
+                        social: 7,
+                        solitary: 5,
+                        verbal: 4,
+                        logical: 6
+                    },
+                    typesOfIntelligenceStudent: {
+                        naturalist: 6,
+                        musical: 7,
+                        logical_mathematical: 5,
+                        existential: 6,
+                        interpersonal: 4,
+                        bodily_kinesthetic: 8,
+                        linguistic: 4,
+                        intrapersonal: 9
+                    },
+                    teamPersonalityStudent: {
+                        pioneer: 8,
+                        guardian: 7,
+                        driver: 6,
+                        integrator: 5
+=======
+                        pioneer: 7, 
+                        guardian: 7, 
+                        driver: 3,
+                        integrator: 4
+>>>>>>> origin/megan-edit
                     }
                 },
                 {
@@ -467,29 +837,61 @@ app.component('root',{
                         history: {2022: 82, 2021: 77, 2020: 89} 
                     },
                     learningTypes: {
-                        visual: 70,
-                        kinaesthetic: 67,
-                        aural: 61,
-                        social: 21,
-                        solitary: 69,
-                        verbal: 76,
-                        logical: 97
+                        visual: 7,
+                        kinaesthetic: 6,
+                        aural: 1,
+                        social: 2,
+                        solitary: 6,
+                        verbal: 6,
+                        logical: 9
                     },
                     typesOfIntelligence: {
-                        naturalist: 61,
-                        musical: 82,
-                        logical_mathematical: 76,
-                        existential: 58,
-                        interpersonal: 53,
-                        bodily_kinesthetic: 83,
-                        linguistic: 85,
-                        intrapersonal: 89
+                        naturalist: 6,
+                        musical: 8,
+                        logical_mathematical: 7,
+                        existential: 5,
+                        interpersonal: 5,
+                        bodily_kinesthetic: 8,
+                        linguistic: 5,
+                        intrapersonal: 8
                     },
                     teamPersonality: {
+<<<<<<< HEAD
                         pioneer: 68, 
                         guardian: 75, 
                         driver: 80,
                         integrator: 71
+                    }, 
+                    learningTypesStudent: {
+                        visual: 6,
+                        kinaesthetic: 5,
+                        aural: 4,
+                        social: 7,
+                        solitary: 8,
+                        verbal: 3,
+                        logical: 7
+                    },
+                    typesOfIntelligenceStudent: {
+                        naturalist: 6,
+                        musical: 5,
+                        logical_mathematical: 7,
+                        existential: 6,
+                        interpersonal: 7,
+                        bodily_kinesthetic: 6,
+                        linguistic: 5,
+                        intrapersonal: 8
+                    },
+                    teamPersonalityStudent: {
+                        pioneer: 4,
+                        guardian: 7,
+                        driver: 6,
+                        integrator: 8
+=======
+                        pioneer: 6, 
+                        guardian: 7, 
+                        driver: 8,
+                        integrator: 7
+>>>>>>> origin/megan-edit
                     }
                 },
                 {
@@ -503,29 +905,60 @@ app.component('root',{
                         history: {2022: 91, 2021: 92, 2020: 80} 
                     },
                     learningTypes: {
-                        visual: 65,
-                        kinaesthetic: 63,
-                        aural: 87,
-                        social: 77,
-                        solitary: 38,
-                        verbal: 73,
-                        logical: 71
+                        visual: 5,
+                        kinaesthetic: 3,
+                        aural: 8,
+                        social: 7,
+                        solitary: 3,
+                        verbal: 3,
+                        logical: 7
                     },
                     typesOfIntelligence: {
-                        naturalist: 59,
-                        musical: 80,
-                        logical_mathematical: 73,
-                        existential: 55,
-                        interpersonal: 66,
-                        bodily_kinesthetic: 21,
-                        linguistic: 83,
-                        intrapersonal: 47
+                        naturalist: 5,
+                        musical: 8,
+                        logical_mathematical: 7,
+                        existential: 5,
+                        interpersonal: 6,
+                        bodily_kinesthetic: 2,
+                        linguistic: 3,
+                        intrapersonal: 4
                     },
                     teamPersonality: {
+<<<<<<< HEAD
                         pioneer: 67, 
                         guardian: 72, 
                         driver: 77,
                         integrator: 69
+                    }, 
+                    learningTypesStudent: {
+                        visual: 8,
+                        kinaesthetic: 6,
+                        aural: 5,
+                        social: 4,
+                        solitary: 7,
+                        verbal: 4,
+                        logical: 6
+                    },
+                    typesOfIntelligenceStudent: {
+                        naturalist: 6,
+                        musical: 4,
+                        logical_mathematical: 6,
+                        existential: 8,
+                        interpersonal: 6,
+                        bodily_kinesthetic: 7,
+                        linguistic: 7,
+                        intrapersonal: 5
+                    },
+                    teamPersonalityStudent: {
+                        pioneer: 6,
+                        guardian: 8,
+                        driver: 5,
+=======
+                        pioneer: 6, 
+                        guardian: 7, 
+                        driver: 7,
+>>>>>>> origin/megan-edit
+                        integrator: 6
                     }
                 },                
                 {
@@ -539,29 +972,61 @@ app.component('root',{
                         history: {2022: 93, 2021: 92, 2020: 94} 
                     },
                     learningTypes: {
-                        visual: 83,
-                        kinaesthetic: 76,
-                        aural: 48,
-                        social: 55,
-                        solitary: 71,
-                        verbal: 62,
-                        logical: 79
+                        visual: 8,
+                        kinaesthetic: 7,
+                        aural: 8,
+                        social: 5,
+                        solitary: 7,
+                        verbal: 2,
+                        logical: 7
                     },
                     typesOfIntelligence: {
-                        naturalist: 70,
-                        musical: 75,
-                        logical_mathematical: 81,
-                        existential: 44,
-                        interpersonal: 77,
-                        bodily_kinesthetic: 60,
-                        linguistic: 46,
-                        intrapersonal: 43
+                        naturalist: 7,
+                        musical: 5,
+                        logical_mathematical: 8,
+                        existential: 4,
+                        interpersonal: 7,
+                        bodily_kinesthetic: 6,
+                        linguistic: 6,
+                        intrapersonal: 4
                     },
                     teamPersonality: {
+<<<<<<< HEAD
                         pioneer: 63, 
                         guardian: 46, 
                         driver: 79,
                         integrator: 31
+                    }, 
+                    learningTypesStudent: {
+                        visual: 7,
+                        kinaesthetic: 8,
+                        aural: 6,
+                        social: 5,
+                        solitary: 5,
+                        verbal: 5,
+                        logical: 4
+                    },
+                    typesOfIntelligenceStudent: {
+                        naturalist: 5,
+                        musical: 7,
+                        logical_mathematical: 5,
+                        existential: 6,
+                        interpersonal: 7,
+                        bodily_kinesthetic: 8,
+                        linguistic: 4,
+                        intrapersonal: 6
+                    },
+                    teamPersonalityStudent: {
+                        pioneer: 7,
+                        guardian: 6,
+                        driver: 5,
+                        integrator: 8
+=======
+                        pioneer: 3, 
+                        guardian: 6, 
+                        driver: 7,
+                        integrator: 3
+>>>>>>> origin/megan-edit
                     }
                 },
                 {
@@ -575,29 +1040,29 @@ app.component('root',{
                         history: {2022: 87, 2021: 44, 2020: 78} 
                     },
                     learningTypes: {
-                        visual: 69,
-                        kinaesthetic: 81,
-                        aural: 65,
-                        social: 71,
-                        solitary: 30,
-                        verbal: 73,
-                        logical: 52
+                        visual: 6,
+                        kinaesthetic: 8,
+                        aural: 6,
+                        social: 1,
+                        solitary: 3,
+                        verbal: 3,
+                        logical: 5
                     },
                     typesOfIntelligence: {
-                        naturalist: 32,
-                        musical: 65,
-                        logical_mathematical: 75,
-                        existential: 49,
-                        interpersonal: 74,
-                        bodily_kinesthetic: 42,
-                        linguistic: 81,
-                        intrapersonal: 26
+                        naturalist: 2,
+                        musical: 6,
+                        logical_mathematical: 7,
+                        existential: 9,
+                        interpersonal: 4,
+                        bodily_kinesthetic: 2,
+                        linguistic: 8,
+                        intrapersonal: 2
                     },
                     teamPersonality: {
-                        pioneer: 71, 
-                        guardian: 41, 
-                        driver: 25,
-                        integrator: 69
+                        pioneer: 1, 
+                        guardian: 4, 
+                        driver: 5,
+                        integrator: 6
                     }
                 },
                 {
@@ -611,29 +1076,29 @@ app.component('root',{
                         history: {2022: 90, 2021: 69, 2020: 87} 
                     },
                     learningTypes: {
-                        visual: 24,
-                        kinaesthetic: 76,
-                        aural: 88,
-                        social: 40,
-                        solitary: 89,
-                        verbal: 85,
-                        logical: 92
+                        visual: 2,
+                        kinaesthetic: 6,
+                        aural: 8,
+                        social: 4,
+                        solitary: 9,
+                        verbal: 8,
+                        logical: 9
                     },
                     typesOfIntelligence: {
-                        naturalist: 80,
-                        musical: 89,
-                        logical_mathematical: 92,
-                        existential: 84,
-                        interpersonal: 30,
-                        bodily_kinesthetic: 28,
-                        linguistic: 87,
-                        intrapersonal: 52
+                        naturalist: 8,
+                        musical: 6,
+                        logical_mathematical: 9,
+                        existential: 8,
+                        interpersonal: 3,
+                        bodily_kinesthetic: 2,
+                        linguistic: 7,
+                        intrapersonal: 5
                     },
                     teamPersonality: {
-                        pioneer: 79, 
-                        guardian: 90, 
-                        driver: 92,
-                        integrator: 85
+                        pioneer: 9, 
+                        guardian: 9, 
+                        driver: 2,
+                        integrator: 5
                     }
                 },
                 {
@@ -647,29 +1112,29 @@ app.component('root',{
                         history: {2022: 60, 2021: 91, 2020: 87} 
                     },
                     learningTypes: {
-                        visual: 75,
-                        kinaesthetic: 80,
-                        aural: 85,
-                        social: 73,
-                        solitary: 63,
-                        verbal: 79,
-                        logical: 77
+                        visual: 5,
+                        kinaesthetic: 8,
+                        aural: 4,
+                        social: 7,
+                        solitary: 6,
+                        verbal: 9,
+                        logical: 7
                     },
                     typesOfIntelligence: {
-                        naturalist: 78,
-                        musical: 86,
-                        logical_mathematical: 81,
-                        existential: 85,
-                        interpersonal: 82,
-                        bodily_kinesthetic: 88,
-                        linguistic: 75,
-                        intrapersonal: 77
+                        naturalist: 7,
+                        musical: 6,
+                        logical_mathematical: 8,
+                        existential: 5,
+                        interpersonal: 2,
+                        bodily_kinesthetic: 8,
+                        linguistic: 5,
+                        intrapersonal: 4
                     },
                     teamPersonality: {
-                        pioneer: 82, 
-                        guardian: 80, 
-                        driver: 75,
-                        integrator: 81
+                        pioneer: 2, 
+                        guardian: 8, 
+                        driver: 5,
+                        integrator: 1
                     }
                 },
                 {
@@ -683,29 +1148,29 @@ app.component('root',{
                         history: {2022: 67, 2021: 45, 2020: 82} 
                     },
                     learningTypes: {
-                        visual: 72,
-                        kinaesthetic: 68,
-                        aural: 85,
-                        social: 80,
-                        solitary: 77,
-                        verbal: 82,
-                        logical: 75
+                        visual: 2,
+                        kinaesthetic: 6,
+                        aural: 5,
+                        social: 2,
+                        solitary: 7,
+                        verbal: 8,
+                        logical: 7
                     },
                     typesOfIntelligence: {
-                        naturalist: 83,
-                        musical: 45,
-                        logical_mathematical: 77,
-                        existential: 88,
-                        interpersonal: 90,
-                        bodily_kinesthetic: 75,
-                        linguistic: 80,
-                        intrapersonal: 22
+                        naturalist: 3,
+                        musical: 5,
+                        logical_mathematical: 7,
+                        existential: 8,
+                        interpersonal: 9,
+                        bodily_kinesthetic: 5,
+                        linguistic: 6,
+                        intrapersonal: 2
                     },
                     teamPersonality: {
-                        pioneer: 28, 
-                        guardian: 45, 
-                        driver: 72,
-                        integrator: 80
+                        pioneer: 2, 
+                        guardian: 5, 
+                        driver: 7,
+                        integrator: 8
                     }
                 },
                 {
@@ -719,29 +1184,29 @@ app.component('root',{
                         history: {2022: 80, 2021: 78, 2020: 73} 
                     },
                     learningTypes: {
-                        visual: 63,
-                        kinaesthetic: 65,
-                        aural: 55,
-                        social: 83,
-                        solitary: 72,
-                        verbal: 45,
-                        logical: 50
+                        visual: 3,
+                        kinaesthetic: 5,
+                        aural: 5,
+                        social: 8,
+                        solitary: 7,
+                        verbal: 5,
+                        logical: 5
                     },
                     typesOfIntelligence: {
-                        naturalist: 66,
-                        musical: 75,
-                        logical_mathematical: 69,
-                        existential: 81,
-                        interpersonal: 74,
-                        bodily_kinesthetic: 82,
-                        linguistic: 66,
-                        intrapersonal: 93
+                        naturalist: 6,
+                        musical: 7,
+                        logical_mathematical: 6,
+                        existential: 8,
+                        interpersonal: 4,
+                        bodily_kinesthetic: 2,
+                        linguistic: 6,
+                        intrapersonal: 3
                     },
                     teamPersonality: {
-                        pioneer: 49, 
-                        guardian: 75, 
-                        driver: 60,
-                        integrator: 85
+                        pioneer: 9, 
+                        guardian: 7, 
+                        driver: 6,
+                        integrator: 8
                     }
                 }
                 

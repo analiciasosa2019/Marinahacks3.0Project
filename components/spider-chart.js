@@ -17,16 +17,18 @@ app.component('spider-chart', {
         type: 'radar', // Specify the chart type
         data: {
           labels: [
-            'Strength',
-            'Speed',
-            'Agility',
-            'Intelligence',
-            'Stamina',
-            'Durability'
+            'Naturalist',
+            'Musical',
+            'Logical Mathematical',
+            'Existential',
+            'Interpersonal',
+            'Bodily Kinesthetic',
+            "Linguistic",
+            "Intrapersonal"
           ], // Specify the labels for the axes
           datasets: [
             {
-              label: 'Spider-Man', // Specify the legend label for the dataset
+              label: 'Intelligence Type', // Specify the legend label for the dataset
               data: [85, 70, 95, 80, 75, 80], // Specify the data for the axes
               fill: true, // Specify that the area under the line should be filled
               backgroundColor: 'rgba(255, 99, 132, 0.2)', // Specify the background color for the area
@@ -41,7 +43,7 @@ app.component('spider-chart', {
               angleLines: {
                 display: false // Hide the lines radiating from the center
               },
-              suggestedMin: 50, // Specify the minimum value for the axes
+              suggestedMin: 10, // Specify the minimum value for the axes
               suggestedMax: 100 // Specify the maximum value for the axes
             }
           }
