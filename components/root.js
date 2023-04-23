@@ -3,13 +3,13 @@ app.component('root',{
     /*html*/
     `
     <div v-show = "page == 'Summary'" > </div> 
-    <div v-show = "page == 'instructorevaluation'" > </div> 
-    {{test}}
+    <div v-show = "page == 'spider-chart'" > </div> 
+    <spider-chart></spider-chart>
     `,
     data(){
         return{
             test: "hellooooo",
-            page: "Summary"
+            page: "spider-chart"
         }
     }, 
     method:{
