@@ -1285,7 +1285,35 @@ app.component('root',{
         navclick(pageName){
             console.log("Button Click:" + pageName)
             this.page = pageName
+        },
+        studentAverages(student){              
+            avgData = {
+                learning: {
+                    visual: (student[learningTypes].visual + student[learningTypesStudent].visual)/3,
+                    kinaesthetic: (student[learningTypes].kinaesthetic + student[learningTypesStudent].kinaesthetic)/3,
+                    aural: (student[learningTypes].aural + student[learningTypesStudent].aural)/3,
+                    social: (student[learningTypes].social + student[learningTypesStudent].social)/3,
+                    solitary: (student[learningTypes].solitary + student[learningTypesStudent].solitary)/3,
+                    verbal: (student[learningTypes].verbal + student[learningTypesStudent].verbal)/3,
+                    logical: (student[learningTypes].logical + student[learningTypesStudent].logical)/3,
+                },
+                intelligence: {
+                    naturalist: (student[typesOfIntelligence].naturalist + student[typesOfIntelligenceStudent].naturalist)/3,
+                    musical: (student[typesOfIntelligence].musical + student[typesOfIntelligenceStudent].musical)/3,
+                    logical_mathematical: (student[typesOfIntelligence].logical_mathematical + student[typesOfIntelligenceStudent].logical_mathematical)/3,
+                    existential: (student[typesOfIntelligence].existential + student[typesOfIntelligenceStudent].existential)/3,
+                    interpersonal: (student[typesOfIntelligence].interpersonal + student[typesOfIntelligenceStudent].interpersonal)/3,
+                    bodily_kinesthetic: (student[typesOfIntelligence].bodily_kinesthetic + student[typesOfIntelligenceStudent].bodily_kinesthetic)/3,
+                    linguistic: (student[typesOfIntelligence].linguistic + student[typesOfIntelligenceStudent].linguistic)/3,
+                    intrapersonal: (student[typesOfIntelligence].intrapersonal + student[typesOfIntelligenceStudent].intrapersonal)/3
+                },
+                team: {
+                    pioneer: (student[teamPersonality].pioneer + student[teamPersonalityStudent].pioneer)/3, 
+                    guardian: (student[teamPersonality].guardian + student[teamPersonalityStudent].guardian)/3, 
+                    driver: (student[teamPersonality].driver + student[teamPersonalityStudent].driver)/3,
+                    integrator: (student[teamPersonality].integrator + student[teamPersonalityStudent].integrator)/3
+                }
+            }
         }
     }
-
 })
