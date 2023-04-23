@@ -1,15 +1,14 @@
-app.component('testTeam',{
+app.component('summaryPage',{
     template: 
     /*html*/
     `
-    <div> </div> 
-
-    {{title}}
+    {{pageTitle}} 
+    
     
     `,
     data(){
         return{
-            title: "Teamwork Type Test",
+            pageTitle: "Summary",
             data: {
                 moredata: "S"
             }
