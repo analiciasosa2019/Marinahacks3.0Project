@@ -16,14 +16,11 @@ app.component('summaryPage', {
         <div class="studentListArea">
             <div class="studentInfo">
                 <div v-if="selectedStudent">
-                <img src="https://www.clipartmax.com/png/middle/197-1970149_face-female-head-person-profile-silhouette-user-silhouette-face.png">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLdpokxdWowVY-xedPWN3W0YiECIg470Barg&usqp=CAU" width="100" height="100">
                 <h2>{{ selectedStudent.name }}</h2>
                 <!-- Display other student information here -->
-                <h3>Teachers: {{studentList.teachers}}</h3>
-                <h3>{{gradeHistory}}</h3>
-                <h3>{{learningTypes}}</h3>
-                <h3>{{typesOfIntelligence}}</h3>
-                <h3>{{teamPersonality}}</h3>
+                <h3>Teachers: {{selectedStudent.teachers}}</h3>
+                <h3>Grade History: {{selectedStudent.gradeHistory}}</h3>
                 </div>
             </div>
             
