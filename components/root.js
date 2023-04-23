@@ -18,7 +18,9 @@ app.component('root',{
     <div v-show = "page == 'testMI'"><testMI></testMI></div> 
     <div v-show = "page == 'testTeam'"><testTeam></testTeam></div> 
     <div v-show = "page == 'testTEI'" > <testTEI></testTEI> </div> 
-    
+    <li v-for="(value, key) in studentList" :key="key">
+    {{ studentAverages(key) }}
+    </li>
     `,
     data(){
         return{
@@ -1781,31 +1783,34 @@ app.component('root',{
         studentAverages(student){              
             avgData = {
                 learning: {
-                    visual: (student[learningTypes].visual + student[learningTypesStudent].visual + student[learningTypesTeacher].visual)/3,
-                    kinaesthetic: (student[learningTypes].kinaesthetic + student[learningTypesStudent].kinaesthetic + student[learningTypesTeacher].kinaesthetic)/3,
-                    aural: (student[learningTypes].aural + student[learningTypesStudent].aural + student[learningTypesTeacher].aural)/3,
-                    social: (student[learningTypes].social + student[learningTypesStudent].social + student[learningTypesTeacher].social)/3,
-                    solitary: (student[learningTypes].solitary + student[learningTypesStudent].solitary + student[learningTypesTeacher].solitary)/3,
-                    verbal: (student[learningTypes].verbal + student[learningTypesStudent].verbal + student[learningTypesTeacher].verbal)/3,
-                    logical: (student[learningTypes].logical + student[learningTypesStudent].logical + student[learningTypesTeacher].logical)/3,
+                    visual: (this.studentList[student].learningTypes.visual + this.studentList[student].learningTypesStudent.visual + this.studentList[student].learningTypesTeacher.visual)/3,
+                    kinaesthetic: (this.studentList[student].learningTypes.kinaesthetic + this.studentList[student].learningTypesStudent.kinaesthetic + this.studentList[student].learningTypesTeacher.kinaesthetic)/3,
+                    aural: (this.studentList[student].learningTypes.aural + this.studentList[student].learningTypesStudent.aural + this.studentList[student].learningTypesTeacher.aural)/3,
+                    social: (this.studentList[student].learningTypes.social + this.studentList[student].learningTypesStudent.social + this.studentList[student].learningTypesTeacher.social)/3,
+                    solitary: (this.studentList[student].learningTypes.solitary + this.studentList[student].learningTypesStudent.solitary + this.studentList[student].learningTypesTeacher.solitary)/3,
+                    verbal: (this.studentList[student].learningTypes.verbal + this.studentList[student].learningTypesStudent.verbal + this.studentList[student].learningTypesTeacher.verbal)/3,
+                    logical: (this.studentList[student].learningTypes.logical + this.studentList[student].learningTypesStudent.logical + this.studentList[student].learningTypesTeacher.logical)/3,
                 },
                 intelligence: {
-                    naturalist: (student[typesOfIntelligence].naturalist + student[typesOfIntelligenceStudent].naturalist + student[typesOfIntelligenceTeacher].naturalist)/3,
-                    musical: (student[typesOfIntelligence].musical + student[typesOfIntelligenceStudent].musical + student[typesOfIntelligenceTeacher].musical)/3,
-                    logical_mathematical: (student[typesOfIntelligence].logical_mathematical + student[typesOfIntelligenceStudent].logical_mathematical + student[typesOfIntelligenceTeacher].logical_mathematical)/3,
-                    existential: (student[typesOfIntelligence].existential + student[typesOfIntelligenceStudent].existential + student[typesOfIntelligenceTeacher].existential)/3,
-                    interpersonal: (student[typesOfIntelligence].interpersonal + student[typesOfIntelligenceStudent].interpersonal + student[typesOfIntelligenceTeacher].interpersonal)/3,
-                    bodily_kinesthetic: (student[typesOfIntelligence].bodily_kinesthetic + student[typesOfIntelligenceStudent].bodily_kinesthetic + student[typesOfIntelligenceTeacher].bodily_kinesthetic)/3,
-                    linguistic: (student[typesOfIntelligence].linguistic + student[typesOfIntelligenceStudent].linguistic + student[typesOfIntelligenceTeacher].linguistic)/3,
-                    intrapersonal: (student[typesOfIntelligence].intrapersonal + student[typesOfIntelligenceStudent].intrapersonal + student[typesOfIntelligenceTeacher].intrapersonal)/3
+                    naturalist: (this.studentList[student].typesOfIntelligence.naturalist + this.studentList[student].typesOfIntelligenceStudent.naturalist + this.studentList[student].typesOfIntelligenceTeacher.naturalist)/3,
+                    musical: (this.studentList[student].typesOfIntelligence.musical + this.studentList[student].typesOfIntelligenceStudent.naturalist + this.studentList[student].typesOfIntelligenceTeacher.naturalist)/3,
+                    logical_mathematical: (this.studentList[student].typesOfIntelligence.logical_mathematical + this.studentList[student].typesOfIntelligenceStudent.logical_mathematical + this.studentList[student].typesOfIntelligenceTeacher.logical_mathematical)/3,
+                    existential: (this.studentList[student].typesOfIntelligence.existential + this.studentList[student].typesOfIntelligenceStudent.existential + this.studentList[student].typesOfIntelligenceTeacher.existential)/3,
+                    interpersonal: (this.studentList[student].typesOfIntelligence.interpersonal + this.studentList[student].typesOfIntelligenceStudent.interpersonal + this.studentList[student].typesOfIntelligenceTeacher.interpersonal)/3,
+                    bodily_kinesthetic: (this.studentList[student].typesOfIntelligence.bodily_kinesthetic + this.studentList[student].typesOfIntelligenceStudent.bodily_kinesthetic + this.studentList[student].typesOfIntelligenceTeacher.bodily_kinesthetic)/3,
+                    linguistic: (this.studentList[student].typesOfIntelligence.linguistic + this.studentList[student].typesOfIntelligenceStudent.linguistic + this.studentList[student].typesOfIntelligenceTeacher.linguistic)/3,
+                    intrapersonal: (this.studentList[student].typesOfIntelligence.intrapersonal + this.studentList[student].typesOfIntelligenceStudent.intrapersonal + this.studentList[student].typesOfIntelligenceTeacher.intrapersonal)/3
                 },
                 team: {
-                    pioneer: (student[teamPersonality].pioneer + student[teamPersonalityStudent].pioneer + student[teamPersonalityTeacher].pioneer)/3, 
-                    guardian: (student[teamPersonality].guardian + student[teamPersonalityStudent].guardian + student[teamPersonalityTeacher].guardian)/3, 
-                    driver: (student[teamPersonality].driver + student[teamPersonalityStudent].driver + student[teamPersonalityTeacher].driver)/3,
-                    integrator: (student[teamPersonality].integrator + student[teamPersonalityStudent].integrator + student[teamPersonalityTeacher].integrator)/3
-                }
+                    pioneer: (this.studentList[student].teamPersonality.pioneer + this.studentList[student].teamPersonalityStudent.pioneer + this.studentList[student].teamPersonalityTeacher.pioneer)/3, 
+                    guardian: (this.studentList[student].teamPersonality.guardian + this.studentList[student].teamPersonalityStudent.guardian + this.studentList[student].teamPersonalityTeacher.guardian)/3, 
+                    driver: (this.studentList[student].teamPersonality.driver + this.studentList[student].teamPersonalityStudent.driver + this.studentList[student].teamPersonalityTeacher.driver)/3,
+                    integrator: (this.studentList[student].teamPersonality.integrator + this.studentList[student].teamPersonalityStudent.integrator + this.studentList[student].teamPersonalityTeacher.integrator)/3
+                }}
+            window.mitt.emit('Student data', avgData)
+            console.log("mitt sent!")
             }
+            
         }
     }
 })
