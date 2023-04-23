@@ -2,18 +2,13 @@ app.component('testTeam',{
     template: 
     /*html*/
     `
-    <div> </div> 
-
-    {{title}}
-    
+    <div> 
+    <div class = "title">{{title}}</div>
+    </div> 
     `,
     data(){
         return{
             title: "Teamwork Type Test",
-            data: {
-                moredata: "S"
-            }
-
         }
     }, 
     method:{

@@ -15,11 +15,29 @@
     transition: all 0.2s ease-in-out;
     margin-right: 20px;
   }
+
+  .basicButton {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 24px;
+    border-radius: 6px;
+    background-color: #6c63ff;
+    color: #fff;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+    margin-right: 20px;
+  }
   
 .navButton:hover {
     background-color: #5549b4;
     cursor: pointer;
   }
+  .basicButton:hover {
+    background-color: #5549b4;
+    cursor: pointer;
+  }
+  
   
 
 nav {
@@ -34,10 +52,17 @@ nav {
   /* Instructor Evaluation */
 
 .testBox{
-    padding-top: 25vh;
+    display: flex;
+    border: black solid;
+    border-radius: 5px;
+    background-color: rgb(115, 75, 194, 0.5);
     justify-content: center;
+    align-items: center;
+    text-align: center;
     width: 80%;
     margin: 50px;
+    padding: 20px;
+    
 }
 
 .testBox2{
@@ -45,6 +70,7 @@ nav {
   justify-content: center;
   width: 80%;
   margin: 50px;
+
 }
 
 .container {
@@ -83,6 +109,36 @@ nav {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     z-index: 9999;
   }
+
+  .eval{
+    text-align: center;
+  }
+
+  .scrollbar{
+    width: 100%;
+  }
+ 
+  .title{
+    text-align: center;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .testTitle{
+    text-align: center;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 25px;
+  }
+
+  .submitButton{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    padding: 10px;
+  }
+ 
+
 
 .modal-content {
     display: flex;
