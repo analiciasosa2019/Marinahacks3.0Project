@@ -26,7 +26,7 @@ app.component('barChart', {
     },
 
     mounted() {
-        window.mitt.on('Gradedata', (sentData) => {
+        window.mitt.on('studentData', (studentData) => {
         console.log("mitt recieved!", sentData)
         //barData=sentData
         })
@@ -44,7 +44,7 @@ app.component('barChart', {
                   fill: false, // Specify that the area under the line should be filled
                   //backgroundColor: 'rgba(255, 99, 132, 0.2)', // Specify the background color for the area
                   borderColor: 'rgba(255, 99, 132, 1)', // Specify the border color for the area
-                  borderWidth: 1 // Specify the border width for the area
+                  borderWidth: 3 // Specify the border width for the area
                 },
                 {
                   label: "English", // Specify the legend label for the dataset
@@ -52,7 +52,7 @@ app.component('barChart', {
                   fill: false, // Specify that the area under the line should be filled
                   //backgroundColor: 'rgba(255, 99, 132, 0.2)', // Specify the background color for the area
                   borderColor: 'rgba(100, 99, 172, 1)', // Specify the border color for the area
-                  borderWidth: 1 // Specify the border width for the area
+                  borderWidth: 3 // Specify the border width for the area
                 },            
                 {
                   label: "Science", // Specify the legend label for the dataset
@@ -60,7 +60,7 @@ app.component('barChart', {
                   fill: false, // Specify that the area under the line should be filled
                   //backgroundColor: 'rgba(255, 99, 132, 0.2)', // Specify the background color for the area
                   borderColor: 'rgba(2, 195, 132, 1)', // Specify the border color for the area
-                  borderWidth: 1 // Specify the border width for the area
+                  borderWidth: 3 // Specify the border width for the area
                 },            
                 {
                   label: "History", // Specify the legend label for the dataset
@@ -68,14 +68,14 @@ app.component('barChart', {
                   fill: false, // Specify that the area under the line should be filled
                   //backgroundColor: 'rgba(255, 99, 132, 0.2)', // Specify the background color for the area
                   borderColor: 'rgba(0, 99, 132, 255)', // Specify the border color for the area
-                  borderWidth: 1 // Specify the border width for the area
+                  borderWidth: 3 // Specify the border width for the area
                 }
               ]
             },
             options: {
               scales: {
                 y: {
-                  suggestedMin: 10, // Specify the minimum value for the axes
+                  suggestedMin: 50, // Specify the minimum value for the axes
                   suggestedMax: 100 // Specify the maximum value for the axes
                 }
               }
