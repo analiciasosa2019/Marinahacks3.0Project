@@ -28,26 +28,20 @@ app.component('summaryPage', {
             </div>
             
             <div class="studentList">
-                <ul>
-                <li
-                    v-for="student in sortedStudentList"
+                <div class = "studentBox"
+                    v-for="student in studentList"
                     :key="student.id"
                     @click="selectStudent(student)"
-                    :class="{ 'highlighted': selectedStudent && selectedStudent.id === student.id }"
-                >
+                    :style="{ backgroundColor: selectedStudent && selectedStudent.id === student.id ? 'purple' : '' }">
                     {{ student.name }}
-                </li>
-                </ul>
+                    </div>
+                
             </div>
         </div>
         
     </div>
     `,
     props: {
-      pageTitle: {
-        type: String,
-        required: true,
-      },
       studentList: {
         type: Array,
         required: true,
@@ -55,15 +49,12 @@ app.component('summaryPage', {
     },
     data() {
       return {
-        selectedStudent: null,
+        pageTitle: "Student Summary",
+        selectedStudent: "",
       };
     },
     computed: {
-      sortedStudentList() {
-        return [...this.studentList].sort((a, b) =>
-          a.name.localeCompare(b.name)
-        );
-      },
+    
     },
     methods: {
       selectStudent(student) {
