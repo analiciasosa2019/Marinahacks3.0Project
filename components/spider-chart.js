@@ -10,8 +10,11 @@ app.component('spider-chart', {
       };
     },
     mounted() {
+        window.mitt.on('Student data', (avgData) => {
+        console.log("mitt recieved!")
+        })
       const canvas = this.$refs.myChart;
-  
+
       // Create a new chart instance
       const chart = new Chart(canvas, {
         type: 'radar', // Specify the chart type
