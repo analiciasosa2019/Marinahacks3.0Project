@@ -2,7 +2,7 @@ app.component('spider-chart', {
     template:
       /*html*/
       `
-      <canvas ref="myChart">y no work</canvas>
+      <canvas ref="myChart"></canvas>
       `,
     data() {
       return {

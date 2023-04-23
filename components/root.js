@@ -12,9 +12,6 @@ app.component('root',{
       <button class = "navButton" @click = "navclick('lessonchat')">Lesson Chat</button>
      </nav>
 
-
-     
-
     <div v-show = "page == 'summary'"><summaryPage></summaryPage></div>
     <div v-show = "page == 'instructorevauation'"><instructorevaluation></instructorevaluation></div> 
     <div v-show = "page == 'lessonchat'"> <lessonchat></lessonchat> </div> 
@@ -54,7 +51,7 @@ app.component('root',{
                         interpersonal: 47,
                         bodily_kinesthetic: 87,
                         linguistic: 79,
-                        intrapersonal: 94
+                        intrapersonal: 43
                     },
                     teamPersonality: {
                         pioneer: 35, 

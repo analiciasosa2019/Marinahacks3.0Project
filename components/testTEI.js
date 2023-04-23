@@ -6,11 +6,24 @@ app.component('testTEI',{
     template: 
     /*html*/
     ` 
-    {{ value }}
-    <li v-for="(value, key) in questions" :key="key">
-    Question {{ key }}: {{ value.text }}
-    <p>Strongly Disagree <input type="range" min="1" max="7" value="4" v-model= {{sliderName}} /> Strongly Agree</p>
+    <div class = "testBox">
+    Please Answer the Question Below: 
+    
+    Question {{ currentQuestion }}: {{ currentQuestionText }}
+    <div style="margin: 20px;">
+        <div style="display: flex; justify-content: space-between;">
+            <span>Strongly Disagree</span>
+            <span>Neutral</span>
+            <span>Strongly Agree</span>
+        </div>
+        <input type="range" min="1" max="7" value="4" v-model="sliderName" style="width: 100%; margin-top: 10px;">
+       
+        </div>
     </li>
+    </div>
+    <div style="display: flex; justify-content: flex-end; margin-top: 20px;">
+    <button style="padding: 10px 20px; border-radius: 5px; background-color: #4CAF50; color: white; border: none; cursor: pointer;">Next</button>
+    </div>
     `,
     data(){
         return{
@@ -71,6 +84,9 @@ app.component('testTEI',{
             answers = this.questions[1].sliderValue
             return answers    
         },
+        currentQuestionText(){
+            return this.questions[this.currentQuestion].text
+        }
         
     }
 })
