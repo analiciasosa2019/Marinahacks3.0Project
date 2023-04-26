@@ -7,11 +7,11 @@ We were inspired by the experiences of friends and family members in school and 
 ## What it does
 There are three main components of this project: student/teacher evaluations, learning type assessments, and lesson plan assistance. The home-page of our website functions as a student overview, summarizing important information about a student, including their grade trends over time and their average scores in the learning type assessments. 
 
-Student/Teacher Evaluations: This component allows teachers and students both to evaluate the student on their perceived strengths and weaknesses. These evaluations cover a variety of topics including their learning type, types of intelligence, and teamwork personality scored from "Strongly Disagree" to "Strongly Agree" and encourage teacher interaction with students as well as student reflection on their performance. 
+**Student/Teacher Evaluations:** This component allows teachers and students both to evaluate the student on their perceived strengths and weaknesses. These evaluations cover a variety of topics including their learning type, types of intelligence, and teamwork personality scored from "Strongly Disagree" to "Strongly Agree" and encourage teacher interaction with students as well as student reflection on their performance. 
 
-Assessments: This component allows students to engage with a set of assessments, covering types of intelligence, teamwork personality, and learning types. At present, only the types of intelligence quiz is available. These assessments are drawn from peer-reviewed sources and scored on a scale from "Strongly Disagree" to "Strongly Agree." 
+**Assessments:** This component allows students to engage with a set of assessments, covering types of intelligence, teamwork personality, and learning types. At present, only the types of intelligence quiz is available. These assessments are drawn from peer-reviewed sources and scored on a scale from "Strongly Disagree" to "Strongly Agree." 
 
-Teacher Lesson Plan Assistance: This component adapts the Microsoft Bot Framework using Azure's Power Virtual Agent to interact with educators and allow them to ask questions regarding site function.
+**Teacher Lesson Plan Assistance:** This component adapts the Microsoft Bot Framework using Azure's Power Virtual Agent to interact with educators and allow them to ask questions regarding site function.
 
 ## How we built it
 Bonnie worked primarily on the main website structure. Megan worked on the sample database and data virtualization. Carla worked on developing the Cindy bot. Analicia worked on the code and research for the intelligence quizzes. We developed the charts using chart.js.
